@@ -1,0 +1,15 @@
+# Site settings
+title: Australian Geometric PDE Seminar
+description: "Australian Geometric PDE Seminar"
+author: "Paul Bryan"
+banner-img: /img/banner.jpg
+profile-img: /img/profile.png
+email: pabryan@gmail.com
+baseurl: ""
+url: "http://oz-geom-pde.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
