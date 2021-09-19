@@ -1,0 +1,65 @@
+{% assign postid = page.date | date: "%Y-%m-%d" | append: "-" | append: page.slug %}
+{% include geompde/filechecks.html %}
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-default content-panel">
+      <div class="panel-body">
+	<h1 class="panel-title" class="display-3">Abstract</h1>
+	{{ page.abstract }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if has-slides %}
+<div class="panel panel-default content-panel">
+  <div class="panel-body">
+    <h1 class="panel-title" class="display-3">Slides</h1>
+    <p><a href="{{ slides-pdf }}">Download lecture presentation (slides, notes etc.)</a></p>
+  </div>
+</div>
+{% endif %}
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default content-panel">
+      <div class="panel-body">
+	<div class="embed-responsive embed-responsive-16by9">
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default content-panel">
+      <div class="panel-body">
+	<h1 class="panel-title" class="display-3">References</h1>
+	<ol>
+	  {% for ref in page.references %}
+	  <li>{{ ref.cite }} <a href="{{ ref.url }}">{{ ref.id }}</a></li>
+	  {% endfor %}
+	</ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if has-transcript-pdf %}
+<div class="panel panel-default content-panel">
+  <div class="panel-body">
+    <h1 class="panel-title" class="display-3">Transcript</h1>
+    <p>
+      <b>What follows is a very rough transcript taken during the lecture</b>. It has only been edited to ensure the TeX compiles. No effort has been expended as yet to ensure accuracy. There are surely many errors. Please send any comments, suggestions, typos etc. to <a href="mailto:Paul%20Bryan%20%3Cpabryan@gmail.com%3E">Paul Bryan</a>
+    </p>
+    {% if has-transcript-pdf %}
+    <a href="{{ transcript-pdf }}">Download transcript PDF</a>
+    {% endif %}
+
+    {% include {{ transcript-html }} %}
+  </div>
+</div>
+{% endif %}
