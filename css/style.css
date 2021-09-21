@@ -4,7 +4,7 @@
 /* Custom CSS */
 
 .masthead {
-  height: 300px;
+  height: 16.5vw;
   width: 100%;
   background: url("{{ site.banner-img }}") top center no-repeat;
   margin: 0 auto;
