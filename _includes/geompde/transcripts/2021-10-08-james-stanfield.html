@@ -1,0 +1,402 @@
+
+<div class="panel panel-default notes-panel">
+<div class="panel-heading">
+<h3><a href="#notes-section-orge1e372f" data-toggle="collapse" class="notes-toggle"><i class="notes-arrow fa fa-caret-down px-1"></i>Goal</a>
+</h3>
+</div>
+<div id="notes-section-orge1e372f" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="outline-text-2" id="text-1">
+<p>
+Understand the equation
+\[
+\underbrace{\partial_t g_t}_{\text{talk 1}} = \underbrace{-2\Ric(g_t)}_{\text{talk 2}}
+\]
+</p>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default notes-panel">
+<div class="panel-heading">
+<h3><a href="#notes-section-orgd55ee8e" data-toggle="collapse" class="notes-toggle"><i class="notes-arrow fa fa-caret-down px-1"></i>Manifolds</a>
+</h3>
+</div>
+<div id="notes-section-orgd55ee8e" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="outline-text-2" id="text-2">
+<p>
+Let \(M\) be a smooth manifold. The tangent bundle,
+\[
+TM = \sqcup_{x \in M} T_x M
+\]
+where
+\[
+T_x M = \{X : C^{\infty}(M) \to \RR\}
+\]
+is the set of derivations based at \(x\): \(X(fg) = X(f) g(x) + X(g) f(x)\).
+</p>
+
+<p>
+In local coordinates \((x^i)\) in a local chart \(U, \varphi\) a basis is
+\[
+\{\partial_i\}_{i=1}^n
+\]
+acting by \(\partial_i f = \partial_i (f \circ \varphi^{-1})|_{\varphi(x)}\).
+</p>
+
+<p>
+Given an curve
+\[
+\gamma : (-\epsilon, \epsilon) \to M
+\]
+with \(\gamma(0) = x\) then we define
+\[
+X_{\gamma} (f) = (f \circ \gamma)'(0)
+\]
+so that velocity vectors to curves act as derivations by differentiating along curves with \(X = \gamma'(0)\). That is,
+\[
+D_X (f) = (f \circ \gamma)'(0)
+\]
+where \(\gamma(0) = x\) and \(X = \gamma'(0)\).
+</p>
+
+<p>
+The cotangent bundle is
+\[
+T^{\ast} M = \sqcup_{x\in M} T_x^{\ast} M
+\]
+with basis \(\{dx^i\}\) dual to \(\partial_i\).
+</p>
+
+<p>
+Let
+\[
+\mathfrak{X}(M) = \Gamma(TM)
+\]
+denote the set of vector fields on \(M\) such that \(X(x) \in T_xM\). The set of dual vector fields in \(\Omega(M) = \Gamma(T^{\ast}M\).
+</p>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default notes-panel">
+<div class="panel-heading">
+<h3><a href="#notes-section-org638d459" data-toggle="collapse" class="notes-toggle"><i class="notes-arrow fa fa-caret-down px-1"></i>Riemannian metric</a>
+</h3>
+</div>
+<div id="notes-section-org638d459" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="outline-text-2" id="text-3">
+<div class="defn" id="orge8f6f7a">
+<p>
+A Riemannian metric on \(M\) is a smooth assignment
+\[
+x \mapsto g_x : T_x M \times T_x M \to \RR
+\]
+of inner-products to each tangent space.
+</p>
+
+</div>
+
+<p>
+Thus \(g_x\) is bilinear for each \(x\), \(g_x(X, Y) = g_x(Y, X)\) and \(g(X, X) \geq 0\). Smoothness means for any vector fields, the map
+\[
+x \mapsto g_x(X(x), Y(x)) \in \RR
+\]
+is smooth. \(g\) is a <i>2-tensor field</i>.
+</p>
+
+<p>
+In coordinates,
+\[
+g = g_{ij} dx^i \otimes dx^j = g_{ji} dx^i dx^j
+\]
+with the summation convention applying and where
+\[
+g_{ij} = g(\partial_i, \partial_j), \quad dx^i dx^j = \frac{1}{2}(dx^i \otimes dx^j + dx^j \otimes dx^i).
+\]
+</p>
+
+
+<p>
+If \(X = X^i \partial_i\) and \(Y = Y^i\partial_i\) then
+\[
+g(X, Y) = X^iY^j g_{ij}
+\]
+Denote the inverse matrix by \(g^{ij}\). Then
+\[
+g^{ij}g_{jk} = \delta^i_k.
+\]
+</p>
+
+<div class="eg" id="org66e45da">
+<p>
+Let \(M = \RR^n\). Then \(T_x \RR^n \simeq \RR^n\). Take
+\[
+g = g_{\text{Euc}} = \ip{\cdot}{\cdot}
+\]
+so \(g_{\text{Euc}} (X, Y) = X^iY^j \delta_{ij}\), \(g_{ij} = \delta_{ij}\),
+\[
+g = \delta_{ij} dx^idx^j = \sum_i (dx^i)^2.
+\]
+</p>
+
+</div>
+
+<div class="eg" id="org9ca27fc">
+<p>
+Let \(M = \bbS^n \subseteq \RR^{n+1}\). For \(x \in \bbS^n\) write
+\[
+T_x \RR^{n+1} = T_x\bbS^n \oplus \RR x
+\]
+and define
+\[
+g_{\text{rnd}} = (g_{\text{Euc}})_x |_{T_x\bbS^n \times T_x\bbS^n}
+\]
+Similarly for any embedded submanifold the Euclidean metric induces a metric on the submanifold.
+</p>
+
+</div>
+
+<div class="eg" id="org131cd5c">
+<p>
+Let \(M = \RR^{n-1} \times \RR_{>0} = \bbH^n\) with \(g_{\text{Hyp}} = \frac{1}{(x^{n+1})^2} g_{\text{Euc}}\).
+</p>
+
+</div>
+
+<div class="eg" id="orgebac856">
+<p>
+Let \((M_i, g_i)\) \(i = 1,2\) be Riemannian manifolds. Consider \(M_1 \times M_2\). The tangent space can be canonically identified with
+\[
+T_{(x, y)} M_1 \times M_2 = T_x M_1 \oplus T_y M_2
+\]
+The metric is
+\[
+g_{(x,y)} (X_1 \oplus Y_1, X_2 \oplus Y_2) = (g_1)_x(X_1, X_2) + (g_2)_y(Y_1, Y_2)
+\]
+with \(X_1,X_2 \in TM_1\), \(Y_1,Y_2 \in TM_2\).
+</p>
+
+</div>
+
+<div class="eg" id="org7fd6889">
+<p>
+Let \(N \subseteq (M, g)\) be an embedded submanifold. Then \(TN \subseteq TM\) and define \(\tilde{g} = g|_{TN}\).
+</p>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default notes-panel">
+<div class="panel-heading">
+<h3><a href="#notes-section-org3f15d87" data-toggle="collapse" class="notes-toggle"><i class="notes-arrow fa fa-caret-down px-1"></i>Geometry</a>
+</h3>
+</div>
+<div id="notes-section-org3f15d87" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="outline-text-2" id="text-4">
+<div class="defn" id="orge30e343">
+<p>
+Let \(\gamma : (a, b) \to M\) be a piecewise smooth curve. The length
+\[
+L_g(\gamma) = \int_a^b \|\dot{\gamma}\| dt = \int_a^b \sqrt{g_{\gamma(t)} (\dot{\gamma}, \dot{\gamma})} dt
+\]
+The induced metric (distance function) is
+\[
+d_g (x, y) = \inf \{L_g(\gamma) : \gamma(0) = x, \gamma(1) = y\}.
+\]
+If \((M, d_g)\) is complete we say \((M, g)\) is complete.
+</p>
+
+</div>
+
+<div class="defn" id="org6c8f427">
+<p>
+If \(M\) is orienteable \(g\) induces a <i>volume form</i>. In coords,
+\[
+d_g = \sqrt{\det(g_{ij})} dx^1 \wedge \cdots \wedge dx^n.
+\]
+</p>
+
+</div>
+
+<p>
+For a compactly support function \(f : M \to \RR\) we can integrate, \(\int_M f dg\). If \(\text{supp} (f) \subseteq U\) for a coordinate patch then,
+\[
+\int_M f dg = \int_U \sqrt{\det(g_{ij})}dx^1 \dots dx^n.
+\]
+For arbitrary \(f\) defined \(\int_M f dg\) via a partition of unity. If \(M\) is compact define the volume, \(\text{Vol}(M) = \int_M dg\).
+</p>
+
+<div class="eg" id="orgfc61bee">
+<p>
+Let \(M = \bbS^2(r)\) be the sphere of radius \(r > 0\). In polar coords,
+\[
+g_{\text{rnd}} = r^2 d\theta^2 + r^2 \sin^2\theta d\theta^2
+\]
+where
+\[
+g_{ij} = \begin{pmatrix}
+r^2 & 0 \\
+0 & r^2 \sin^2\theta
+\end{pmatrix}
+\]
+</p>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default notes-panel">
+<div class="panel-heading">
+<h3><a href="#notes-section-org43d5115" data-toggle="collapse" class="notes-toggle"><i class="notes-arrow fa fa-caret-down px-1"></i>Isometries</a>
+</h3>
+</div>
+<div id="notes-section-org43d5115" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="outline-text-2" id="text-5">
+<div class="defn" id="org82f6b2e">
+<p>
+An isometry is a diffeomorhpism \(f : M_1 \to M_2\) such that
+\[
+g_1 = f^{\ast} g_2
+\]
+That is
+\[
+g_1(X, Y) = g_2(df(X), df(Y))
+\]
+</p>
+
+</div>
+
+<div class="defn" id="org6d48050">
+<p>
+Iso(M, g) = \(\{\text{isometries } f : M \to M\}\) is a group under composition.
+</p>
+
+</div>
+
+<div class="eg" id="org4626a6f">
+<p>
+The Euclidean group is
+\[
+\operatorname{Iso}(\RR^n, g_{\text{Euc}}) = E(n) = \RR^n \rtimes O(n)
+\]
+Here \((v, A) \in E(n)\) acts by \(x \mapsto Ax + v\).
+</p>
+
+</div>
+
+<div class="eg" id="orgb99402d">
+<p>
+The isometries of the sphere are \(\operatorname{Iso}(\bbS^n, g_{\text{rnd}}) = O(n+1)\) since we have to take ambient isometries preserving the norm.
+</p>
+
+</div>
+
+<div class="theorem" id="org7edf319">
+<p>
+[Myer-Steenrod]
+</p>
+
+<p>
+If \((M, g)\) is connected and complete, then the isometry group \(\operatorname{Iso}(M, g)\) is a Lie group.
+</p>
+
+</div>
+
+<div class="eg" id="org6fd0c1b">
+<p>
+Let \((M, g)\) be connected and complete and let \(G < \operatorname{Iso}(M, g)\) be a closed Lie subgroup acting freely on \(M\), i.e. \(f(p) = p\) for \(p \in G\) if and only if \(f = Id_M\). Then the orbit space
+\[
+M/G = \{G(p) : p \in M\}
+\]
+is a smooth manfiold with Riemannian metric \(\tilde{g}\) such that
+\[
+\pi : (M, g) \to (M/G, \tilde{g})
+\]
+is a <i>local isometry</i>. We define the metric on \(M/G\) so that the quotient map \(\pi : M \to M/G\) becomes a local isometry: \(g(X, Y) = g(d\pi(X), d\pi(Y))\).
+</p>
+
+</div>
+
+<div class="remark" id="orgc91a62a">
+<p>
+It's possible to have a discrete isometry group (e.g. \(\ZZ/2\ZZ\)) which is then a smooth \(0\)-dimensional Lie group.
+</p>
+
+</div>
+
+<div class="eg" id="org74bc1dc">
+<p>
+The torus. The isometry group has rotational isometries and reflections which are in different connected components of the isometry group.
+</p>
+
+<p>
+Let \(M = \RR^n\), \(\ZZ^n \subseteq \operatorname{Iso}(\RR^n, g)\) be defning \(z \in \ZZ \mapsto f_z\)
+\[
+f_z(x) = x + z.
+\]
+Then \(ZZ^n\) acts freely and \(\RR^n/\ZZ^n \simeq \TT^n = (\bbS^1)^n\) is the \(n\)-torus. The metric is
+\[
+\delta_{ij} dx^i dx^j
+\]
+where \((x^1, \dots, x^n)\) are coordinates on \((\bbS^1)^n\).
+</p>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default notes-panel">
+<div class="panel-heading">
+<h3><a href="#notes-section-org3976def" data-toggle="collapse" class="notes-toggle"><i class="notes-arrow fa fa-caret-down px-1"></i>Levi-Civita connection</a>
+</h3>
+</div>
+<div id="notes-section-org3976def" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="outline-text-2" id="text-6">
+<p>
+Let \(Y \in \Gamma(TM)\). We want a notion of <i>directional derivative</i> of \(Y\) in the direction \(X \in T_x M\). In Euclidean space we may define
+\[
+D_X Y = \frac{d}{dt} (Y(\gamma(t)))|_{t=0} = \lim_{t\to 0} \frac{Y(\gamma(t)) - Y(\gamma(0))}{t}
+\]
+where \(\gamma(0) = x\) and \(\gamma'(0) = X\). The problem in directly generalising this is that we needed to use the linear (additive) structure on \(\RR^n\) to add the vectors \(Y(\gamma(t))\) and \(Y(\gamma(0))\) which lie in different tangent spaces. In Euclidean space we may identify all tangent spaces thus allowing the addition.
+</p>
+
+<p>
+Properites we would like to generalise:
+</p>
+
+<ul class="org-ul">
+<li>The product rule,
+\[
+  D_X \ip{Y}{Z} = \ip{D_X Y}{Z} + \ip{X}{D_X Z}
+  \]</li>
+<li>Torsion free
+\[
+  D_{\partial_i} \partial_j = D_{\partial_j} \partial_j.
+  \]
+That is, second partial derivatives are symmetric \(\partial_i \partial_j = \partial_j \partial_i\).</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
