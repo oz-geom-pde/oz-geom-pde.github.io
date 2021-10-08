@@ -1,0 +1,54 @@
+<div class="panel panel-default content-panel">
+  <div class="panel-heading">
+    <h3> {{ page.title }}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+	<p>{{ page.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% assign posts = site.categories[page.category] | sort: 'date' %}
+{% for post in posts %}
+
+{% assign postid = post.date | date: "%Y-%m-%d" | append: "-" | append: post.slug %}
+{% include geompde/filechecks.html %}
+
+<div class="panel panel-default research-panel">
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-2">
+	<div class="speaker-profile-frame"> 
+	  <img class="img-responsive speaker-profile-img center-block" src="{{ "/img/speaker-profiles/" | append: post.profile-pic | prepend: site.baseurl }}"/>
+	</div>
+      </div>
+      <div class="col-sm-8">
+	<h1 class="panel-title" class="display-1">
+	  {{ post.title }}
+	</h1>
+	<ul>
+	  <li><strong>Speaker</strong>: <a href="{{ post.speaker-url }}">{{ post.speaker }}</a>
+	    ({% for inst in post.speaker-inst %}
+	    {{ inst }}
+	    {% endfor %})
+	  </li>
+	  <li>
+	    <strong>Date</strong>: {{ post.date | date: "%-d %B %Y" }}
+	  </li>
+	</ul>
+      </div>
+      <div class="col-sm-2">
+	<p class="text-right"><a href="#details-{{ post.youtube-id }}" class="show-hide-abstract" data-toggle="collapse">View Lecture<i class="abstract-arrow fa fa-caret-down" alt="View Lecture" title="View Lecture"></i></a></p>
+      </div>
+    </div>
+
+    <div id="details-{{ post.youtube-id }}" class="collapse" data-post="{{ post.url }}">
+      <span><i class="fa fa-rotate-right gly-spin"></i>Loading...</span>
+    </div>
+  </div>
+</div>
+{% endfor %}
+

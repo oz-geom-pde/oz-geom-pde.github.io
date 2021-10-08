@@ -57,6 +57,16 @@ img.speaker-profile-img {
     border-top-width: thin;
 }
 
+.panel {
+    margin: auto;
+    max-width: 800px;
+}
+
+.navbar  {
+    margin: auto;
+    max-width: 800px;
+}
+
 .right-sidebar .panel-heading {
    background-color: transparent !important;
    background: transparent !important;
