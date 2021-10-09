@@ -67,6 +67,19 @@ img.speaker-profile-img {
     max-width: 800px;
 }
 
+.navbar-collapse.in {
+    overflow: hidden;
+    max-height: none !important;
+    height: auto !important;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+.navbar-brand {
+  padding: 0px 0px 0px 10px;
+}
+
 .right-sidebar .panel-heading {
    background-color: transparent !important;
    background: transparent !important;
