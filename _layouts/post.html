@@ -33,6 +33,7 @@
   </div>
 </div>
 
+{% if page.references and page.references.size != 0 %}
 <div class="row">
   <div class="col-sm-12">
     <div class="panel panel-default content-panel">
@@ -47,6 +48,7 @@
     </div>
   </div>
 </div>
+{% endif %}
 
 {% if has-transcript-pdf %}
 <div class="panel panel-default content-panel">
