@@ -41,11 +41,11 @@
 	</ul>
       </div>
       <div class="col-sm-2">
-	<p class="text-right"><a href="#details-{{ post.youtube-id }}" class="show-hide-abstract" data-toggle="collapse">View Lecture<i class="abstract-arrow fa fa-caret-down" alt="View Lecture" title="View Lecture"></i></a></p>
+	<p class="text-right"><a href="#details-{{ post.youtube-id }}-{{ post.youtube-timestamp }}" class="show-hide-abstract" data-toggle="collapse">View Lecture<i class="abstract-arrow fa fa-caret-down" alt="View Lecture" title="View Lecture"></i></a></p>
       </div>
     </div>
 
-    <div id="details-{{ post.youtube-id }}" class="collapse" data-post="{{ post.url }}">
+    <div id="details-{{ post.youtube-id }}-{{ post.youtube-timestamp }}" class="collapse" data-post="{{ post.url }}">
       <span><i class="fa fa-rotate-right gly-spin"></i>Loading...</span>
     </div>
   </div>
