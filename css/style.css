@@ -55,6 +55,7 @@ img.speaker-profile-img {
     border-top-style: solid;
     border-top-color: #D9EDF7;
     border-top-width: thin;
+    padding-bottom: 50px;
 }
 
 .panel {
@@ -378,4 +379,8 @@ i {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
+}
+
+div.post-summary {
+    padding-top: 10px;
 }
