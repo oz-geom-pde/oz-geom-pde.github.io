@@ -32,9 +32,7 @@
 	  </h1>
 	  <ul>
 	    <li><strong>Speaker</strong>: <a href="{{ post.speaker-url }}">{{ post.speaker }}</a>
-	      ({% for inst in post.speaker-inst %}
-	      {{ inst }}
-	      {% endfor %})
+	      ({% for inst in post.speaker-inst %}{{ inst }}{% if forloop.last != true %},&nbsp;{% endif %}{% endfor %})
 	    </li>
 	    <li>
 	      <strong>Date</strong>: {{ post.date | date: "%-d %B %Y" }}
