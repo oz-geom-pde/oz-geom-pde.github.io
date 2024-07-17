@@ -36,6 +36,7 @@
 	    </li>
 	    <li>
 	      <strong>Date</strong>: {{ post.date | date: "%-d %B %Y" }}
+	      <span style="color:red" post-date="{{ post.date | date: '%Y%m%d' }}" hidden>(Upcoming)</span>
 	    </li>
 	  </ul>
 	</div>
