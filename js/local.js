@@ -15,7 +15,7 @@ $(document).ready(function(){
 });
 
 function getCompareDate() {
-  var d = new Date(),
+    var d = new Date(new Date().toLocaleString("en-US", {timeZone: "Australia/Sydney"})),
       month = '' + (d.getMonth() + 1),
       day = '' + d.getDate(),
       year = d.getFullYear();
