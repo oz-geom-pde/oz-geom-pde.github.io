@@ -1,0 +1,16 @@
+{% if page.references and page.references.size != 0 %}
+<div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default content-panel">
+      <div class="panel-body">
+	<h1 class="panel-title" class="display-3">References</h1>
+	<ol>
+	  {% for ref in page.references %}
+	  <li>{{ ref.cite }} <a href="{{ ref.url }}">{{ ref.id }}</a></li>
+	  {% endfor %}
+	</ol>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

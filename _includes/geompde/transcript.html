@@ -1,0 +1,15 @@
+{% if has-transcript-pdf %}
+<div class="panel panel-default content-panel">
+  <div class="panel-body">
+    <h1 class="panel-title" class="display-3">Transcript</h1>
+    <p>
+      <b>What follows is a very rough transcript taken during the lecture</b>. It has only been edited to ensure the TeX compiles. No effort has been expended as yet to ensure accuracy. There are surely many errors. Please send any comments, suggestions, typos etc. to <a href="mailto:Paul%20Bryan%20%3Cpabryan@gmail.com%3E">Paul Bryan</a>
+    </p>
+    {% if has-transcript-pdf %}
+    <a href="{{ transcript-pdf }}">Download transcript PDF</a>
+    {% endif %}
+
+    {% include {{ transcript-html }} %}
+  </div>
+</div>
+{% endif %}
