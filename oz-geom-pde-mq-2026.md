@@ -100,9 +100,9 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 
 ## Max Orchard (UQ)
 
--   **Title:** TBA
+-   **Title:** Global regularity of cohomogeneity one incompressible Euler fluids on compact manifolds
 
--   **Abstract:** TBA
+-   **Abstract:** Given a Riemannian manifold $(M,\mathsf{g})$, the Euler fluid equation is a nonlinear PDE for a time-varying vector field $u(t)$ which governs the flow of ideal (incompressible and inviscid) fluids. A fundamental problem in the study of Euler fluids is to determine whether an initially smooth solution and develop a singularity in finite time. This question has been well-studied in case $M$ is a submanifold of $\mathbb{R}^3$ and $\mathsf{g}$ is the Euclidean metric, with considerable progress made in recent weeks by Alp\\"oge&ndash;Buckmaster and OpenAI. However, the question has seen comparatively little attention for more general Riemannian manifolds. In this talk, we will discuss the so-called "blow-up" problem for more general Riemannian manifolds, and will demonstrate that solutions never develop finite-time singularities if the isometry group of $\mathsf{g}$ is large enough
 
 
 ## Tien Dat Dinh (UoW)
