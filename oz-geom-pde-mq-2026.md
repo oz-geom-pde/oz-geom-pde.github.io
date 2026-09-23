@@ -97,10 +97,9 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 
 ## Qiyu Zhou (ANU)
 
--   **Title:** TBA
+-   **Title:** High-Codimension Mean Curvature Flow with One Spacelike Codimension
 
--   **Abstract:** TBA
-
+-   **Abstract:** In this talk, I will present the spacelike-convex theory and new convexity and cylindrical estimates for high-codimension mean curvature flow with one spacelike codimension. These results are inspired by the argument of Haslhofer&ndash;Kleiner, but use a different and more flexible approach that extends naturally to the high-codimension setting considered here. This is a joint work with Ben Andrews.
 
 
 ## Max Orchard (UQ)
