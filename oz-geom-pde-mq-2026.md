@@ -3,8 +3,9 @@ layout: default
 category: geom-pde-reading-seminar-season02
 ---
 
-Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026.
+Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026 in 14 Sir Christopher Ondaatje Avenue (14SCO) Room 146.
 
+![img](img/oz-geom-pde-at-mq-map.png "Map to workshop location")
 
 
 # Schedule
