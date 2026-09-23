@@ -33,16 +33,16 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 
 ## Fri
 
--   0:30-12:30 CHAIR: Devesh Rajpal
--   0:30-11:10 Jihye Lee
--   1:30-12:10 Kwok Kun Kwong
--   2:30-14:00 LUNCH
--   4:00-15:30 CHAIR: Max Orchard
--   4:00-14:40 Vindula Kumaranayake Magurawalage
--   4:50-15:30 Elliot Mabbutt
--   5:30-16:00 AFTERNOON TEA
--   6:00-17:00 CHAIR: Simon Goodwin
--   6:00-16:40 Alexander Bednarek
+-   10:30-12:30 CHAIR: Devesh Rajpal
+-   10:30-11:10 Jihye Lee
+-   11:30-12:10 Kwok Kun Kwong
+-   12:30-14:00 LUNCH
+-   14:00-15:30 CHAIR: Max Orchard
+-   14:00-14:40 Vindula Kumaranayake Magurawalage
+-   14:50-15:30 Elliot Mabbutt
+-   15:30-16:00 AFTERNOON TEA
+-   16:00-17:00 CHAIR: Simon Goodwin
+-   16:00-16:40 Alexander Bednarek
 
 
 # Abstracts
