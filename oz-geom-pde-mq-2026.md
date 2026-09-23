@@ -6,12 +6,10 @@ category: geom-pde-reading-seminar-season02
 Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026.
 
 
-<a id="org52c209d"></a>
 
 # Schedule
 
 
-<a id="orgb4fa1aa"></a>
 
 ## Thu
 
@@ -29,7 +27,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   16:50-17:30 Owen Dearricott
 
 
-<a id="org5af485f"></a>
 
 ## Fri
 
@@ -45,12 +42,10 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   6:00-16:40 Alexander Bednarek
 
 
-<a id="orge0d41aa"></a>
 
 # Abstracts
 
 
-<a id="orgbdb92f2"></a>
 
 ## Jihye Lee (Macquarie)
 
@@ -59,7 +54,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** The isoperimetric profile of a Riemannian manifold describes the least boundary area needed to enclose a prescribed volume. Classical comparison theorems relate this profile to that of a model space under pointwise lower bounds on Ricci curvature. In this talk, I will discuss quantitative comparison estimates under integral Ricci curvature bounds, extending results of Morgan–Johnson and Ni–Wang.
 
 
-<a id="org2b40723"></a>
 
 ## Simon Goodwin (Aukland)
 
@@ -70,7 +64,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
     This is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress
 
 
-<a id="org535827f"></a>
 
 ## Alexander Bednarek (USyd)
 
@@ -79,7 +72,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** The classical Miyaoka-Yau inequality is a constraint on Kahler-Einstein manifolds where equality is equivalent to being a complex space form. We discuss how the Kahler-Ricci flow can provide several extensions of the inequality to non-KE manifolds, and the connection with the slope stability of the holomorphic tangent bundle. Finally, we display a connection with the Weil-Petersson metric, a form measuring the variation of complex structures, and that equality in the extended Miyaoka-Yau inequality is equivalent to being a holomorphic fibre bundle. This is recent work: arXiv.2609.06451.
 
 
-<a id="orgd3e3dc6"></a>
 
 ## Kwok Kun Kwong (UoW)
 
@@ -90,7 +82,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
     In this talk, I will explain a volume bound that takes into account the full spectrum of the Ricci curvature. As a consequence, one obtains an improved upper bound for the total volume which agrees, to first order, with the bound predicted by Bray’s conjecture. If time permits, I will also discuss an averaged volume comparison for metric balls of arbitrary radius.
 
 
-<a id="orge4437fe"></a>
 
 ## Owen Dearricott (LaTrobe)
 
@@ -103,7 +94,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
     This is joint work with Yuri Nikolayevsky.
 
 
-<a id="org98097af"></a>
 
 ## Qiyu Zhou (ANU)
 
@@ -112,7 +102,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** TBA
 
 
-<a id="orge5afcf4"></a>
 
 ## Max Orchard (UQ)
 
@@ -121,7 +110,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** TBA
 
 
-<a id="org3bbf9b9"></a>
 
 ## Tien Dat Dinh (UoW)
 
@@ -130,7 +118,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** Chen’s Conjecture is a longstanding conjecture in the field of Geometric Analysis. It states that every biharmonic immersion into Euclidean space is minimal. Though remains unsolved, Chen’s conjecture has opened many active research directions regarding biharmonic and$p$-biharmonic maps. In this talk, we introduce a notion of weak super-$p$-biharmonic immersions into Euclidean space and discuss rigidity results of such proper immersions with an integrability condition. This presentation is based on a joint work with Glen Wheeler and Nguyen Thac Dung.
 
 
-<a id="orga67ca15"></a>
 
 ## Devesh Rajpal (ANU)
 
@@ -139,7 +126,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** We prove dimensional C0 estimates for solutions of the Lp-Minkowski problem in the entire supercritical range. This implies a spectral gap of the Brunn-Minkowski operator for the Lp Minkowski solutions. Furthermore, following methods from Ivaki-Milman and Du's results, this allows us to prove uniqueness of the Lp Minkowski problem in the supercritical range near the affine exponent p = -n-1 and importantly without any symmetry assumption.
 
 
-<a id="org4d26ae2"></a>
 
 ## Elliot Mabbutt (UoW)
 
@@ -150,7 +136,6 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
     We focus on the case of a curve between two parallel lines, with 90-degree Neumann boundary conditions, where the initial curve $\gamma_0$ can be written as a graph in its first component. We translate the flow equation into a quasilinar PDE, and then prove global existence and uniqueness, and convergence of the solution to a horizontal line translating in time.
 
 
-<a id="org83d8e72"></a>
 
 ## Vindula Kumaranayake Magurawalage (UoW)
 
