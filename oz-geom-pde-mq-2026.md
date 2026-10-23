@@ -19,34 +19,36 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 
 -   10:15-10:30 OPENING
 -   10:30-12:30 CHAIR: Jihye Lee
--   10:30-11:10 Simon Goodwin
--   11:30-12:10 Devesh Rajpal
+-   10:30-11:10 [Simon Goodwin (Aukland)](#simon-goodwin)
+-   11:30-12:10 [Devesh Rajpal (ANU)](#devesh-rajpal)
 -   12:30-14:00 LUNCH
 -   14:00-15:30 CHAIR: Owen Dearricott
--   14:00-14:40 Qiyu Zhou
--   14:50-15:30 Max Orchard
+-   14:00-14:40 [Qiyu Zhou (ANU)](#qiyu-zhou)
+-   14:50-15:30 [Max Orchard (UQ)](#max-orchard)
 -   15:30-16:00 AFTERNOON TEA
 -   16:00-17:30 CHAIR: Kwok Kun Kwong
--   16:00-16:40 Tien Dat Dinh
--   16:50-17:30 Owen Dearricott
+-   16:00-16:40 [Tien Dat Dinh (UoW)](#tien-dat-dinh)
+-   16:50-17:30 [Owen Dearricott (LaTrobe)](#owen-dearricaott)
 
 
 ## Fri
 
 -   10:30-12:30 CHAIR: Devesh Rajpal
--   10:30-11:10 Jihye Lee
--   11:30-12:10 Kwok Kun Kwong
+-   10:30-11:10 [Jihye Lee (Macquarie)](#jihye-lee)
+-   11:30-12:10 [Kwok Kun Kwong (UoW)](#kwok-kun-kwong)
 -   12:30-14:00 LUNCH
 -   14:00-15:30 CHAIR: Max Orchard
--   14:00-14:40 Vindula Kumaranayake Magurawalage
--   14:50-15:30 Elliot Mabbutt
+-   14:00-14:40 [Vindula Kumaranayake Magurawalage (UoW)](#vindula-magurawalage)
+-   14:50-15:30 [Elliot Mabbutt (UoW)](#elliot-mabbutt)
 -   15:30-16:00 AFTERNOON TEA
 -   16:00-17:00 CHAIR: Simon Goodwin
--   16:00-16:40 Alexander Bednarek
+-   16:00-16:40 [Alexander Bednarek (USyd)](#alexander-bednarek)
 
 
 # Abstracts
 
+
+<a id="jihye-lee"></a>
 
 ## Jihye Lee (Macquarie)
 
@@ -54,6 +56,8 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 
 -   **Abstract:** The isoperimetric profile of a Riemannian manifold describes the least boundary area needed to enclose a prescribed volume. Classical comparison theorems relate this profile to that of a model space under pointwise lower bounds on Ricci curvature. In this talk, I will discuss quantitative comparison estimates under integral Ricci curvature bounds, extending results of Morgan–Johnson and Ni–Wang.
 
+
+<a id="simon-goodwin"></a>
 
 ## Simon Goodwin (Aukland)
 
@@ -64,12 +68,16 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
     This is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress
 
 
+<a id="alexander-bednarek"></a>
+
 ## Alexander Bednarek (USyd)
 
 -   **Title:** On Miyaoka-Yau Inequalities and Weil-Petersson Metrics
 
 -   **Abstract:** The classical Miyaoka-Yau inequality is a constraint on Kahler-Einstein manifolds where equality is equivalent to being a complex space form. We discuss how the Kahler-Ricci flow can provide several extensions of the inequality to non-KE manifolds, and the connection with the slope stability of the holomorphic tangent bundle. Finally, we display a connection with the Weil-Petersson metric, a form measuring the variation of complex structures, and that equality in the extended Miyaoka-Yau inequality is equivalent to being a holomorphic fibre bundle. This is recent work: arXiv.2609.06451.
 
+
+<a id="kwok-kun-kwong"></a>
 
 ## Kwok Kun Kwong (UoW)
 
@@ -79,6 +87,8 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 
     In this talk, I will explain a volume bound that takes into account the full spectrum of the Ricci curvature. As a consequence, one obtains an improved upper bound for the total volume which agrees, to first order, with the bound predicted by Bray’s conjecture. If time permits, I will also discuss an averaged volume comparison for metric balls of arbitrary radius.
 
+
+<a id="owen-dearricaott"></a>
 
 ## Owen Dearricott (LaTrobe)
 
@@ -91,12 +101,16 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
     This is joint work with Yuri Nikolayevsky.
 
 
+<a id="qiyu-zhou"></a>
+
 ## Qiyu Zhou (ANU)
 
 -   **Title:** High-Codimension Mean Curvature Flow with One Spacelike Codimension
 
 -   **Abstract:** In this talk, I will present the spacelike-convex theory and new convexity and cylindrical estimates for high-codimension mean curvature flow with one spacelike codimension. These results are inspired by the argument of Haslhofer&ndash;Kleiner, but use a different and more flexible approach that extends naturally to the high-codimension setting considered here. This is a joint work with Ben Andrews.
 
+
+<a id="max-orchard"></a>
 
 ## Max Orchard (UQ)
 
@@ -105,6 +119,8 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** Given a Riemannian manifold $(M,\mathsf{g})$, the Euler fluid equation is a nonlinear PDE for a time-varying vector field $u(t)$ which governs the flow of ideal (incompressible and inviscid) fluids. A fundamental problem in the study of Euler fluids is to determine whether an initially smooth solution and develop a singularity in finite time. This question has been well-studied in case $M$ is a submanifold of $\mathbb{R}^3$ and $\mathsf{g}$ is the Euclidean metric, with considerable progress made in recent weeks by Alp\\"oge&ndash;Buckmaster and OpenAI. However, the question has seen comparatively little attention for more general Riemannian manifolds. In this talk, we will discuss the so-called "blow-up" problem for more general Riemannian manifolds, and will demonstrate that solutions never develop finite-time singularities if the isometry group of $\mathsf{g}$ is large enough
 
 
+<a id="tien-dat-dinh"></a>
+
 ## Tien Dat Dinh (UoW)
 
 -   **Title:** Liouville type results for super-p-biharmonic submanifolds of Euclidean space
@@ -112,12 +128,16 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 -   **Abstract:** Chen’s Conjecture is a longstanding conjecture in the field of Geometric Analysis. It states that every biharmonic immersion into Euclidean space is minimal. Though remains unsolved, Chen’s conjecture has opened many active research directions regarding biharmonic and$p$-biharmonic maps. In this talk, we introduce a notion of weak super-$p$-biharmonic immersions into Euclidean space and discuss rigidity results of such proper immersions with an integrability condition. This presentation is based on a joint work with Glen Wheeler and Nguyen Thac Dung.
 
 
+<a id="devesh-rajpal"></a>
+
 ## Devesh Rajpal (ANU)
 
 -   **Title:** Uniqueness of Lp-Minkowski problem near the affine exponent
 
 -   **Abstract:** We prove dimensional C0 estimates for solutions of the Lp-Minkowski problem in the entire supercritical range. This implies a spectral gap of the Brunn-Minkowski operator for the Lp Minkowski solutions. Furthermore, following methods from Ivaki-Milman and Du's results, this allows us to prove uniqueness of the Lp Minkowski problem in the supercritical range near the affine exponent p = -n-1 and importantly without any symmetry assumption.
 
+
+<a id="elliot-mabbutt"></a>
 
 ## Elliot Mabbutt (UoW)
 
@@ -127,6 +147,8 @@ Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026
 
     We focus on the case of a curve between two parallel lines, with 90-degree Neumann boundary conditions, where the initial curve $\gamma_0$ can be written as a graph in its first component. We translate the flow equation into a quasilinar PDE, and then prove global existence and uniqueness, and convergence of the solution to a horizontal line translating in time.
 
+
+<a id="vindula-magurawalage"></a>
 
 ## Vindula Kumaranayake Magurawalage (UoW)
 
