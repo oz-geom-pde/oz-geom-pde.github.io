@@ -14,6 +14,11 @@ description: |
 
 {% include geompde/season.html %}
 
+#+BEGIN_export html
+<div class="container">
+  <div class="row">
+#+END_export
+
 * Event Details
 
 #+BEGIN_export html
@@ -51,3 +56,8 @@ description: |
 - 15:30-16:00 AFTERNOON TEA
 - 16:00-17:00 CHAIR: Simon Goodwin
 - 16:00-16:40 Alexander Bednarek (USyd)
+
+#+BEGIN_export html
+  </div>
+</div>
+#+END_export
