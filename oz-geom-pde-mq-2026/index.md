@@ -1,9 +1,12 @@
 ---
 layout: default
 category: oz-geom-pde-mq-2026
+title: oz-geom-pde @ mq 2026
+description: |
+  Workshop held at Macquarie University Thu 24th Sep--Fri 25th Sep 2026 in 14 Sir Christopher Ondaatje Avenue (14SCO) Room 146.
 ---
 
-Workshop to be held at Macquarie University Thu 24th Sep&ndash;Fri 25th Sep 2026 in 14 Sir Christopher Ondaatje Avenue (14SCO) Room 146.
+{% include geompde/season.html %}
 
 <figure>
 	<img src="/img/oz-geom-pde-at-mq-map.png" alt="Map to workshop location" width=200>
