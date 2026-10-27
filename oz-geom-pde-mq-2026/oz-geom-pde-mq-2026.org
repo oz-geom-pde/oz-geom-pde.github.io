@@ -1,5 +1,6 @@
 #+TITLE: oz-geom-pde @ mq 2026
 #+OPTIONS: toc:nil
+#+EXPORT_FILE_NAME: index
 
 #+BEGIN_EXPORT markdown
 ---
