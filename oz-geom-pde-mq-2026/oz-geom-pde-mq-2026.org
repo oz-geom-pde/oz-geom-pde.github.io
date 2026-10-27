@@ -14,7 +14,7 @@ Workshop to be held at Macquarie University Thu 24th Sep--Fri 25th Sep 2026 in 1
 #+CAPTION: Map to workshop location
 #+ATTR_HTML: :alt Map to workshop location :align center
 #+ATTR_HTML: :width 200
-[[file:img/oz-geom-pde-at-mq-map.png]]
+[[file:../img/oz-geom-pde-at-mq-map.png]]
 
 * Schedule
 ** Thu
