@@ -15,7 +15,7 @@ Workshop held at Macquarie University Thu 24th Sep--Fri 25th Sep 2026 in 14 Sir 
 
 ## Schedule
 
-See [Talks](index.html) for recordings and titles/abstracts.
+See [Talks](/oz-geom-pde-mq-2026) for recordings and titles/abstracts.
 
 ### Thu
 
