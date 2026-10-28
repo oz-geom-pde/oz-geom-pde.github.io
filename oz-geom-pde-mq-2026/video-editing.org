@@ -1,0 +1,1206 @@
+#+TITLE: oz-geom-pde @ mq 2026
+#+PROPERTY: header-args:python :session *youtube* :python /home/paul/working/hacking/youtube/python-google-api/bin/python3
+#+PROPERTY: header-args :results none
+
+* Playlist
+:PROPERTIES:
+:CUSTOM_ID: playlist
+:TITLE: oz-geom-pde @ mq 2026
+:END:
+
+Research seminar at Macquarie University on 24th-25th September 2026. Participants presented their research in various problems from geometric analysis over the two days.
+
+* Talks
+:PROPERTIES:
+:CUSTOM_ID: talks
+:END:
+** Jihye Lee
+:PROPERTIES:
+:CUSTOM_ID: jihye-lee
+:TITLE: Isoperimetric profile comparisons under integral Ricci curvature bounds
+:INSTITUTION: Macquarie
+:PROFILE_PIC: jihye-lee.jpg
+:RECORDING: oz-geom-pde@mq-2026-jihye-lee.mp4
+:START: 06:58
+:STOP: 48:22
+:DATE: 2026-09-25T10:30:00+10:00
+:URL: https://sites.google.com/view/jihyelee-math/
+:YOUTUBE_ID: LR8zqlXutlM
+:END:
+
+The isoperimetric profile of a Riemannian manifold describes the least boundary area needed to enclose a prescribed volume. Classical comparison theorems relate this profile to that of a model space under pointwise lower bounds on Ricci curvature. In this talk, I will discuss quantitative comparison estimates under integral Ricci curvature bounds, extending results of Morgan–Johnson and Ni–Wang.
+
+** Simon Goodwin
+:PROPERTIES:
+:CUSTOM_ID: simon-goodwin
+:TITLE: First integrals, Killing scales and Tractors
+:INSTITUTION: University of Aukland
+:RECORDING: oz-geom-pde@mq-2026-simon-goodwin.mp4
+:START: 03:05
+:STOP: 44:30
+:DATE: 2026-09-24T10:30:00+10:00
+:URL: https://profiles.auckland.ac.nz/simon-goodwin
+:PROFILE_PIC: simon-goodwin.webp
+:YOUTUBE_ID: 8LhiH05Kh88
+:END:
+
+The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.
+
+This is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress
+
+** Alexander Bednarek
+:PROPERTIES:
+:CUSTOM_ID: alexander-bednarek
+:TITLE: On Miyaoka-Yau Inequalities and Weil-Petersson Metrics
+:INSTITUTION: University of Sydney
+:RECORDING: oz-geom-pde@mq-2026-alexander-bednarek.mp4
+:START: 09:06
+:STOP: 49:24
+:DATE: 2026-09-25T16:00:00+10:00
+:URL: https://www.maths.usyd.edu.au/u/bednarek/
+:PROFILE_PIC: alexander-bednarek.jpg
+:YOUTUBE_ID: sIMMtka4bpQ
+:END:
+
+The classical Miyaoka-Yau inequality is a constraint on Kahler-Einstein manifolds where equality is equivalent to being a complex space form. We discuss how the Kahler-Ricci flow can provide several extensions of the inequality to non-KE manifolds, and the connection with the slope stability of the holomorphic tangent bundle. Finally, we display a connection with the Weil-Petersson metric, a form measuring the variation of complex structures, and that equality in the extended Miyaoka-Yau inequality is equivalent to being a holomorphic fibre bundle. This is recent work: arXiv.2609.06451.
+
+** Kwok Kun Kwong
+:PROPERTIES:
+:CUSTOM_ID: kwok-kun-kwong
+:TITLE: An improved volume bound under Ricci and scalar curvature lower bounds
+:INSTITUTION: University of Wollongong
+:RECORDING: oz-geom-pde@mq-2026-kwok-kun-kwong.mp4
+:START: 03:25
+:STOP: 45:22
+:DATE: 2026-09-25T11:30:00+10:00
+:URL: https://scholars.uow.edu.au/kwok-kun-kwong
+:PROFILE_PIC: kwok-kun-kwong.jpg
+:YOUTUBE_ID: fvtAv5Mb-zM
+:END:
+
+The Bishop–Gromov volume comparison theorem implies that if the Ricci curvature of a closed Riemannian manifold is bounded below by that of the unit sphere, then its total volume is bounded above by the volume of the sphere. It is natural to ask whether this estimate can be improved if one additionally assumes a stronger lower bound on the scalar curvature. This question is closely related to a conjecture of Bray.
+
+In this talk, I will explain a volume bound that takes into account the full spectrum of the Ricci curvature. As a consequence, one obtains an improved upper bound for the total volume which agrees, to first order, with the bound predicted by Bray’s conjecture. If time permits, I will also discuss an averaged volume comparison for metric balls of arbitrary radius.
+
+** Owen Dearricott
+:PROPERTIES:
+:CUSTOM_ID: owen-dearricott
+:TITLE: Killing tensors on complex and quaternionic projective spaces
+:INSTITUTION: LaTrobe University
+:RECORDING: oz-geom-pde@mq-2026-owen-dearricott.mp4
+:START: 02:39
+:STOP: 51:55
+:DATE: 2026-09-24T16:50:00+10:00
+:URL: https://sites.google.com/view/owendearricott/home
+:PROFILE_PIC: owen-dearricott.jpg
+:YOUTUBE_ID: f5ASgT5nPB0
+:END:
+
+A covariant symmetric tensor field is said to be Killing if the symmetrisation of its covariant derivative vanishes. The Killing tensors on standard spheres were classified in the 1980s and are decomposable; namely, they consist of sums of symmetric products of rank 1 Killing tensors dual to Killing fields. Recently, Eastwood proved that the same is true on complex projective space.
+
+In this talk we corroborate Eastwood's result by different means. Namely via the Riemannian submersion given by a Hopf fibration and the classical invariant theory of Hermann Weyl. We go on in this vein to classify the Killing tensors on quaternionic projective space to be generated by rank 1 Killing tensors dual to Killing fields and the quadratic Killing tensors found by Matveev and Nikolayevsky in 2024.
+
+This is joint work with Yuri Nikolayevsky.
+
+** Qiyu Zhou
+:PROPERTIES:
+:CUSTOM_ID: qiyu-zhou
+:TITLE: High-Codimension Mean Curvature Flow with One Spacelike Codimension
+:INSTITUTION:
+:RECORDING: oz-geom-pde@mq-2026-qiyu-zhou.mp4
+:START: 06:37
+:STOP: 54:25
+:DATE: 2026-09-24T14:00:00+10:00
+:URL: https://maths.anu.edu.au/people/qiyu-zhou
+:PROFILE_PIC: blank.jpg
+:YOUTUBE_ID: GCBjkuV_A5w
+:END:
+
+In this talk, I will present the spacelike-convex theory and new convexity and cylindrical estimates for high-codimension mean curvature flow with one spacelike codimension. These results are inspired by the argument of Haslhofer--Kleiner, but use a different and more flexible approach that extends naturally to the high-codimension setting considered here. This is a joint work with Ben Andrews.
+
+** Max Orchard
+:PROPERTIES:
+:CUSTOM_ID: max-orchard
+:TITLE: Global regularity of cohomogeneity one incompressible Euler fluids on compact manifolds
+:RECORDING: oz-geom-pde@mq-2026-max-orchard.mp4
+:INSTITUTION: University of Queensland
+:START: 00:00
+:STOP: 40:34
+:DATE: 2026-09-24T14:50:00+10:00
+:URL: https://www.maxorchard.com/
+:PROFILE_PIC: max-orchard.jpg
+:YOUTUBE_ID: 47_6f-J8Xhg
+:END:
+
+Given a Riemannian manifold $(M,\mathsf{g})$, the Euler fluid equation is a nonlinear PDE for a time-varying vector field $u(t)$ which governs the flow of ideal (incompressible and inviscid) fluids. A fundamental problem in the study of Euler fluids is to determine whether an initially smooth solution and develop a singularity in finite time. This question has been well-studied in case $M$ is a submanifold of $\mathbb{R}^3$ and $\mathsf{g}$ is the Euclidean metric, with considerable progress made in recent weeks by Alp\"oge--Buckmaster and OpenAI. However, the question has seen comparatively little attention for more general Riemannian manifolds. In this talk, we will discuss the so-called "blow-up" problem for more general Riemannian manifolds, and will demonstrate that solutions never develop finite-time singularities if the isometry group of $\mathsf{g}$ is large enough
+
+** Devesh Rajpal
+:PROPERTIES:
+:CUSTOM_ID: devesh-rajpal
+:TITLE: Uniqueness of Lp-Minkowski problem near the affine exponent
+:RECORDING: oz-geom-pde@mq-2026-devesh-rajpal.mp4
+:INSTITUTION: ANU
+:START: 01:00
+:STOP: 42:00
+:DATE: 2026-09-24T11:30:00+10:00
+:URL: https://devesh-sudo.github.io/
+:PROFILE_PIC: devesh-rajpal.jpg
+:YOUTUBE_ID: FZ5XhtixbV8
+:END:
+
+We prove dimensional C0 estimates for solutions of the Lp-Minkowski problem in the entire supercritical range. This implies a spectral gap of the Brunn-Minkowski operator for the Lp Minkowski solutions. Furthermore, following methods from Ivaki-Milman and Du's results, this allows us to prove uniqueness of the Lp Minkowski problem in the supercritical range near the affine exponent p = -n-1 and importantly without any symmetry assumption.
+
+** Elliot Mabbutt
+:PROPERTIES:
+:CUSTOM_ID: elliot-mabbutt
+:TITLE: The Graphical Wound Healing Flow with Neumann Boundary
+:RECORDING: oz-geom-pde@mq-2026-elliot-mabbutt.mp4
+:INSTITUTION: University of Wollongong
+:START: 05:27
+:STOP: 33:44
+:DATE: 2026-09-25T14:50:00+10:00
+:URL:
+:PROFILE_PIC: blank.jpg
+:YOUTUBE_ID: yeXzeQkVJgU
+:END:
+
+The wound healing flow is a geometric flow similar to the curve shortening flow, but with a forcing term. We focus on the case of a curve between two parallel lines, with 90-degree Neumann boundary conditions, where the initial curve can be written as a graph in its first component. We translate the flow equation into a quasilinar PDE, and then prove global existence and uniqueness, and convergence of the solution to a horizontal line translating in time.
+
+** Tien Dat Dinh
+:PROPERTIES:
+:CUSTOM_ID: tien-dat-dinh
+:TITLE: Liouville type results for super-p-biharmonic submanifolds of Euclidean space
+:RECORDING: oz-geom-pde@mq-2026-tien-dat-dinh.mp4
+:INSTITUTION: University of Wollongong
+:START: 17:10
+:STOP: 44:10
+:DATE: 2026-09-24T16:00:00+10:00
+:URL: https://sites.google.com/view/dattiendinhhome/home
+:PROFILE_PIC: tien-dat-dinh.jpg
+:YOUTUBE_ID: awaubDWEN9Q
+:END:
+
+Chen’s Conjecture is a longstanding conjecture in the field of Geometric Analysis. It states that every biharmonic immersion into Euclidean space is minimal. Though remains unsolved, Chen’s conjecture has opened many active research directions regarding biharmonic and$p$-biharmonic maps. In this talk, we introduce a notion of weak super-$p$-biharmonic immersions into Euclidean space and discuss rigidity results of such proper immersions with an integrability condition. This presentation is based on a joint work with Glen Wheeler and Nguyen Thac Dung.
+
+** Vindula Kumaranayake
+:PROPERTIES:
+:CUSTOM_ID: vindula-kumaranayake
+:TITLE: Rigidity Theorems in General Relativity
+:INSTITUTION: University of Wollongong
+:RECORDING: oz-geom-pde@mq-2026-vindula-kumaranayake.mp4
+:START: 05:07
+:STOP: 38:51
+:DATE: 2026-09-25T14:00:00+10:00
+:URL:
+:PROFILE_PIC: blank.jpg
+:YOUTUBE_ID: ciqtsyRLdb0
+:END:
+
+Rigidity theorems show that, under symmetry or asymptotic assumptions, solutions to the Einstein vacuum equations collapse to a handful of distinguished metrics. This talk gives modern, self-contained proofs of four classical results: Birkhoff's theorem, Lichnerowicz's theorem, Robinson's generalisation of Israel's uniqueness theorem, and the Boucher–Gibbons–Horowitz rigidity theorem for anti-de Sitter spacetime, and highlights a unifying template underlying the last two: constructing a divergence identity, integrating it between carefully chosen hypersurfaces, and using positivity to force curvature obstructions to vanish.
+* Code
+:PROPERTIES:
+:CUSTOM_ID: code
+:END:
+** API
+*** Document Parsing
+
+Jump to talks headline.
+
+#+BEGIN_src elisp
+(defun pab/talks-jump-to-talks ()
+  "Jump to talks headline."
+  (org-link-search "#talks"))
+#+END_src
+
+Get talks headline parse tree.
+
+#+BEGIN_src elisp
+(defun pab/talks-get-talks-parse-tree ()
+  "Return talks headline parse tree."
+
+  (save-excursion
+    (pab/talks-jump-to-talks)
+    (org-element-at-point)))
+#+END_src
+
+Walk through each talk of talks, and execute given function on each talk.
+
+*NOTE*: There is also [[help:org-element-map][org-element-map]] that could be used to map over the ~talks~ parse tree instead, rather than jumping around the org file now that we can get the parse tree.
+
+#+BEGIN_src elisp
+(defun pab/talks-map-talks-parse-tree (f)
+  "Map over sub-headlines of talks parse tree.
+
+Exectute F at each sub-headline."
+
+  (save-excursion
+    (pab/talks-jump-to-talks)
+    (let ((level (org-outline-level)))
+      (org-map-entries f (format "level=%d" (+ 1 level)) 'tree))))
+#+END_src
+
+Function to tidy up a string by removing trailing whitespace on each line, and by removing trailing newlines at the end of the string.
+
+#+BEGIN_src elisp
+(defun pab/tidy-string (string)
+  "Clean up STRING by removing trailing whitespace on each line
+and newlines at the end of the string."
+
+  (let ((tidy-regex (rx (or (seq (one-or-more blank) line-end)
+			    (seq (one-or-more "\n") string-end)))))
+    (replace-regexp-in-string tidy-regex "" string)))
+#+END_src
+
+Get contents of headline excluding property drawer.
+
+#+BEGIN_src elisp
+(defun pab/talks-get-contents-no-properties (headline)
+  "Get the contents of HEADLINE excluding initial property drawer."
+
+    (let ((beg (org-element-property :contents-begin headline))
+	  ;; Subtract 1 from end since otherwise it's outside the
+	  ;; current tree's range.
+	  (end (- (org-element-property :contents-end headline) 1)))
+      ;; Skip property drawer if it exits.
+      (save-excursion
+	(goto-char beg)
+	(let ((elt (org-element-at-point)))
+	  (when (eq 'property-drawer (org-element-type elt))
+	    (setq beg (org-element-end elt)))))
+      ;; Clean up trailing whitespace in contents
+      (pab/tidy-string (buffer-substring-no-properties beg end))))
+#+END_src
+
+Get property key/val pair from talk.
+
+#+BEGIN_src elisp
+(defun pab/get-talk-property (talk prop)
+  "Get property PROP from Talk.
+
+PROP is a string and the return value is a cons cell
+(:PROP . val) where value is the value of the property PROP
+in TALK."
+
+  (cons (intern (format ":%s" prop)) (org-entry-get talk prop)))
+#+END_src
+
+Get talk at point.
+
+*TODO*: Store the ~props-list~ in a variable and refer to the variable here, and also use the variable in ~pab/talk-put-props~. Also write a ~pab/talks-talk-get-id~ function.
+
+#+BEGIN_src elisp
+(defun pab/get-talk-at-point ()
+  "Return talk at point in the form (:key talk-alist).
+
+Here key is taken from the CUSTOM_ID property, and talk-alist is an
+alist containg the fields in the talk's property drawer.
+
+The :abstract key of talk-alist contains the talks contents."
+
+  (let* ((talk (org-element-at-point))
+	 (key (intern (format ":%s" (org-entry-get talk "custom_id"))))
+	 (props-list '("title" "institution" "recording" "start" "stop"
+		       "date" "profile_pic" "url"))
+	 (props
+	  (mapcar
+	   (lambda (prop) (pab/get-talk-property talk prop))
+	   props-list))
+	 (abstract (pab/talks-get-contents-no-properties talk)))
+    (cons key (append props (list (cons :abstract abstract))))))
+#+END_src
+
+Add properties to talk headline at point.
+
+#+BEGIN_src elisp
+(defun pab/talk-put-props ()
+  "Add properties to talk at point."
+
+  (let ((talk (org-element-at-point))
+	(props '(("DATE" . "2026-09-25")
+		 ("URL" . "")
+		 ("PROFILE_PIC" . ""))))
+    (dolist (prop props)
+      (org-entry-put talk (car prop) (cdr prop)))))
+#+END_src
+
+Cut talk to required length.
+
+#+BEGIN_src elisp
+(defun pab/talks-cut-video  (talk)
+  "Cut video from TALK according to settings in TALK."
+
+  (let* ((recording (expand-file-name
+		    (alist-get :recording talk)
+		    pab/talks-recording-directory))
+	(edit (expand-file-name
+	       (alist-get :recording talk)
+	       pab/talks-edited-recording-directory))
+	(start (alist-get :start talk))
+	(stop (alist-get :stop talk))
+	(cmd (format "ffmpeg -ss %s -to %s -i %s -c copy %s"
+	     start stop recording edit)))
+    (shell-command cmd)))
+#+END_src
+
+Get playlist information.
+
+#+BEGIN_src elisp
+(defun pab/talks-get-playist ()
+  "Get the playlist information from the playlist headline."
+
+  (save-excursion
+    (org-link-search "#playlist")
+    (let ((playlist (org-element-at-point)))
+      (list
+       (cons :title (org-entry-get playlist "title"))
+       (cons :description (pab/talks-get-contents-no-properties playlist))))))
+#+END_src
+
+Get a talk from a talk-key. Takes a symbol ~:talk-key~ are returns the corresponding headline with ~:CUSTOM_ID:~ equal to =talk-key=.
+
+#+BEGIN_src elisp
+(defun pab/talks-get-talk-headline-by-key (key)
+  "Get talk headline corresponding to KEY.
+
+KEY is symbol of the form `:<talk>'.  Return headline with `:CUSTOM_ID:'
+property equal to `<talk>' (without the leading :)."
+
+  (let ((id (replace-regexp-in-string
+	     "^:" "" (symbol-name key))))
+    (save-excursion
+      (org-link-search (format "#%s" id))
+      (org-element-at-point))))
+#+END_src
+
+Add YouTube id to talk.
+
+#+BEGIN_src elisp
+(defun pab/talks-talk-add-youtube-id (talk youtube-id)
+  "Add YOUTUBE-ID to property drawer of TALK."
+
+  (let ((talk-headline
+	 (pab/talks-get-talk-headline-by-key (car talk))))
+  (org-entry-put talk-headline "YOUTUBE_ID" youtube-id)))
+#+END_src
+
+Export talk to YAML.
+
+#+BEGIN_src elisp
+(defun pab/talks-talk-to-yaml-post (talk)
+  "Convert TALK to yaml format."
+
+  (let* ((post-dir "posts")
+	 (talk-id (replace-regexp-in-string
+	       "^:" "" (symbol-name (car talk))))
+	 (talk-filename
+	  (expand-file-name
+	   (format
+	    "%s-%s.html"
+	    (substring (alist-get :date talk) 0 10)
+	    talk-id)
+	   post-dir))
+	 (talk-speaker (capitalize
+	   (replace-regexp-in-string "-" " " talk-id)))
+	 (talk-headline
+	  (pab/talks-get-talk-headline-by-key (car talk)))
+	 (yaml-header "---\nlayout: post\n")
+	 (yaml-footer "---\n"))
+    (with-temp-file
+      talk-filename
+      (insert yaml-header)
+      (insert (format "title: %s\n" (alist-get :title talk)))
+      (insert (format "speaker: %s\n" talk-speaker))
+      (insert (format "profile-pic: %s\n"
+		      (alist-get :profile_pic talk)))
+      (insert (format "speaker-url: %s\n" (alist-get :url talk)))
+      (insert (format "speaker-inst:\n  - %s\n"
+		      (alist-get :institution talk)))
+      (insert (format
+	       "youtube-id: %s\n"
+	       (org-entry-get talk-headline "YOUTUBE_ID")))
+      (insert "category: oz-geom-pde-mq-2026\n")
+      (insert (format
+	       "abstract: |\n%s\n"
+	       (replace-regexp-in-string
+		"^" "  "
+		(alist-get :abstract talk))))
+      (insert (format "date: |\n  %s\n" (alist-get :date talk)))
+      (insert yaml-footer))))
+#+END_src
+
+*** YouTube API
+
+Import Python library for uploading to YouTube.
+
+#+BEGIN_src python
+import sys
+sys.path.insert(1, "/home/paul/working/hacking/youtube/youtube-uploader")
+from youtube_uploader import YouTube
+#+END_src
+
+Get a connection to YouTube.
+
+#+BEGIN_src python
+def youtube_connect():
+    """
+    Return a connection to YouTube.
+    """
+
+    client_secrets_file = "client-secrets.json"
+    token_file = "token.json"
+
+    yt = YouTube(client_secrets_file, token_file)
+    yt.start_session()
+
+    return(yt)
+#+END_src
+
+The YouTube API expects a certain format. Convert a talk to the required format.
+
+#+BEGIN_src elisp
+(defun pab/talks-talk-youtube-video (talk)
+  "Convert TALK to YouTube video format."
+
+  `((:title . ,(pab/talks-talk-youtube-title talk))
+   (:description . ,(alist-get :abstract talk))
+   (:file . ,(expand-file-name
+		(alist-get :recording talk)
+		pab/talks-edited-recording-directory))
+   (:recordingDate . ,(alist-get :date talk))
+   (:privacyStatus . "public")
+   (:categoryId . 28)
+   (:tags . ())))
+#+END_src
+
+Format the title of the talk.
+
+#+BEGIN_src elisp
+(defun pab/talks-talk-youtube-title (talk)
+  "Format title of TALK for YouTube."
+
+  (let* ((title (alist-get :title talk))
+	 (speaker-key
+	  (replace-regexp-in-string
+	   "^:" "" (symbol-name (car talk))))
+	 (speaker
+	  (capitalize
+	   (replace-regexp-in-string "-" " " speaker-key))))
+    (format "%s : %s" speaker title)))
+#+END_src
+
+Upload video to YouTube returning the ID of the new video as a string. This passes the talk in the appropriate format to the named code block [[youtube-upload-video][youtube-upload-video]] which does the actual upload.
+
+#+BEGIN_src elisp
+(defun pab/talks-upload-talk-youtube (talk &optional playlist-id)
+  "Upload TALK to YouTube.
+
+If PLAYLIST-ID is also provided, then add TALK to playlist with
+id PLAYLIST_ID."
+
+  (let* ((video (pab/talks-talk-youtube-video talk))
+	 (video-id
+	  (org-sbe "youtube-upload-video" (video_json (json-encode video)))))
+    (when video-id
+      (pab/talks-talk-add-youtube-id talk video-id)
+      (when playlist-id
+	(pab/talks-add-video-to-playlist video-id playlist-id)))
+    (cons (car talk) video-id)))
+#+END_src
+
+Create a named block to upload a video to YouTube. Data is passed as a json string specifying the video file and properties such as title, description, etc. for the video upload.
+
+#+name: youtube-upload-video
+#+BEGIN_src python :var video_json="" video_id="No video provided!"
+import json
+
+if video_json != "":
+    video = json.loads(video_json)
+    upload = yt.video_upload(video)
+    video_id = upload["id"]
+
+video_id
+#+END_src
+
+Update video on YouTube returning the ID of the updated video as a string. This passes the talk in the appropriate format to the named code block [[youtube-update-video][youtube-update-video]] which does the actual update.
+
+#+BEGIN_src elisp
+(defun pab/talks-update-talk-youtube (talk video-id &optional playlist-id)
+  "Update YouTube video with id VIDEO-ID using meta-data in TALK.
+
+If PLAYLIST-ID is also provided, then add TALK to playlist with
+id PLAYLIST_ID."
+
+  (let* ((video
+	  (append (pab/talks-talk-youtube-video talk)
+		  (list (cons :id video-id))))
+	 (video-id
+	  (org-sbe "youtube-update-video" (video_json (json-encode video)))))
+    (when (and video-id playlist-id)
+      (pab/talks-add-video-to-playlist video-id playlist-id))
+    (cons (car talk) video-id)))
+#+END_src
+
+Create a named block to upload a video to YouTube. Data is passed as a json string specifying the video file and properties such as title, description, etc. for the video upload.
+
+#+name: youtube-update-video
+#+BEGIN_src python :var video_json="" video_id="No video provided!"
+import json
+
+if video_json != "":
+    video = json.loads(video_json)
+    upload = yt.video_update(video)
+    video_id = upload["id"]
+
+video_id
+#+END_src
+
+Add talk to YouTube playlist. This passes the talk in the appropriate format along with the playlist id as a string to the named code block [[youtube-add-video-to-playlist][youtube-add-video-to-playlist]] which does the actual change.
+
+#+BEGIN_src elisp
+(defun pab/talks-add-video-to-playlist (video-id playlist-id)
+  "Add YouTube video with id VIDEO-ID to YouTube playlist with
+ id PLAYLIST-ID."
+
+  (org-sbe "youtube-add-video-to-playlist"
+	   (video_json (json-encode (list (cons :id video-id))))
+	   (playlist_json (json-encode (list (cons :id playlist-id))))))
+#+END_src
+
+Create a named block to add a video to a YouTube playlist. Data is passed as a json string specifying the video and a string specifying the playlist id.
+
+#+name: youtube-add-video-to-playlist
+#+BEGIN_src python :var video_json="" playlist_json=""
+import json
+
+if (video_json != "") and (playlist_json != ""):
+    video = json.loads(video_json)
+    playlist = json.loads(playlist_json)
+    yt.add_video_to_playlist(video, playlist)
+#+END_src
+
+The YouTube API expects a certain format. Convert playlist to the required format.
+
+#+BEGIN_src elisp
+(defun pab/talks-youtube-playlist (playlist)
+  "Convert PLAYLIST to YouTube playlist format."
+
+  `((:title . ,(alist-get :title playlist))
+   (:description . ,(alist-get :description playlist))
+   (:privacyStatus . "public")))
+#+END_src
+
+Create YouTube playlist returning the ID of the new playlist as a string. This passes the playlist in the appropriate format to the named code block [[youtube-upload-video][youtube-upload-video]] which does the actual upload.
+
+#+BEGIN_src elisp
+(defun pab/talks-create-playlist (playlist)
+  "Upload TALK to YouTube."
+
+  (org-sbe
+   "youtube-create-playlist"
+   (playlist_json (json-encode (pab/talks-youtube-playlist playlist)))))
+#+END_src
+
+Create a named block to create a YouTube playlist. Data is passed as a json string specifying the playlist details such as title, description.
+
+#+name: youtube-create-playlist
+#+BEGIN_src python :var playlist_json="" playlist_id="No playlist provided!"
+import json
+
+if playlist_json != "":
+    playlist = json.loads(playlist_json)
+    upload = yt.create_playlist(playlist)
+    playlist_id = upload["id"]
+
+playlist_id
+#+END_src
+
+** Processing
+*** Settings
+
+#+BEGIN_src elisp
+(setq pab/talks-json-file "video-editing.json")
+(setq pab/talks-recording-directory "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings")
+(setq pab/talks-edited-recording-directory "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit")
+#+END_src
+
+*** First time setup
+
+Run this once only to set up the property drawers for the talks. Add some properties to each talk. The talks were on 24/09/26-25/09/26. We'll just set each to the 24th and fix it manually later.
+
+#+BEGIN_src elisp :eval query
+(pab/talks-map-talks-parse-tree #'pab/talk-put-props)
+#+END_src
+
+*** Get talks data for processing
+
+Sort by date.
+
+#+BEGIN_src elisp
+(setq pab/talks (pab/talks-map-talks-parse-tree #'pab/get-talk-at-point))
+(setq pab/talks
+      (sort
+       pab/talks
+       :key #'(lambda (talk) (alist-get :date (cdr talk)))))
+#+END_src
+
+*** Save talk data to JSON for processing with other tools
+
+Write talks to json file.
+
+#+BEGIN_src elisp
+(with-temp-file pab/talks-json-file
+  (insert (json-encode pab/talks))
+  (json-pretty-print-buffer)))
+#+END_src
+
+*** Cut videos
+
+Cut videos to required length as specified by each talk. This only needs to be executed once.
+
+#+BEGIN_src elisp :eval query
+(mapcar #'pab/talks-cut-video pab/talks)
+#+END_src
+
+*** Upload to YouTube
+**** Connect to YouTube
+
+#+BEGIN_src python
+yt = youtube_connect()
+#+END_src
+
+**** Create Playlist
+
+This only needs to be executed once.
+
+#+BEGIN_src elisp :eval query :results value replace
+(setq pab/playlist-id (pab/talks-create-playlist (pab/talks-get-playist)))
+#+END_src
+
+#+RESULTS:
+: PLc1L7qJZL1xQ
+
+**** Upload talks
+
+Let's upload all videos to YouTube! This only needs to be executed once.
+
+#+BEGIN_src elisp :eval query :results value replace
+(setq pab/youtube-ids
+      (mapcar
+       #'(lambda (talk)
+	   (pab/talks-upload-talk-youtube talk pab/playlist-id))
+       pab/talks))
+#+END_src
+
+#+RESULTS:
+: ((:simon-goodwin . 8LhiH05Kh88) (:devesh-rajpal . FZ5XhtixbV8) (:qiyu-zhou . GCBjkuV_A5w) (:max-orchard . 47_6f-J8Xhg) (:tien-dat-dinh . awaubDWEN9Q) (:owen-dearricott . f5ASgT5nPB0) (:jihye-lee . LR8zqlXutlM) (:kwok-kun-kwong . fvtAv5Mb-zM) (:vindula-kumaranayake . ciqtsyRLdb0) (:elliot-mabbutt . yeXzeQkVJgU) (:alexander-bednarek . sIMMtka4bpQ))
+
+*** Export talks to YAML for website
+
+Only needs to be run once.
+
+#+BEGIN_src elisp :eval query
+(mapcar #'pab/talks-talk-to-yaml-post pab/talks)
+#+END_src
+
+** Testing the setup
+
+Here's just some testing to explore the data structures, load libraries for uploading to YouTube etc. It's also a sort of devlog including things I experimented with prior to adding them to [[*API][API]] and [[*Processing][Processing]]. It's not a full devlog, since I moved some things into [[*API][API]] and [[*Processing][Processing]] once they got to a suitable state.
+
+*** Macro for executing outside of buffer
+
+Most of the code here works by operating on this buffer. Executing functions elsewhere (e.g. in ielm) thus often doesn't work. Wrapping it in ~with-current-buffer~ does work. Here's a macro to make that simpler.
+
+#+BEGIN_src elisp
+(defmacro pab/with-buffer (&rest body)
+  "Wrap execution of BODY in with-current-buffer for this buffer."
+
+  `(with-current-buffer "video-editing.org" ,@body))
+#+END_src
+
+*** Get talk for testing
+
+Let's start by grabbing a talk.
+
+#+BEGIN_src elisp :results value replace
+(setq pab/talk (nth 0 pab/talks))
+#+END_SRC
+
+#+RESULTS:
+: (:simon-goodwin (:title . First integrals, Killing scales and Tractors) (:institution . University of Aukland) (:recording . oz-geom-pde@mq-2026-simon-goodwin.mp4) (:start . 03:05) (:stop . 44:30) (:date . 2026-09-24T10:30:00+10:00) (:profile_pic . simon-goodwin.webp) (:url . https://profiles.auckland.ac.nz/simon-goodwin) (:abstract . The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.
+:
+: This is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress))
+
+Get a json representation. Let's make a little helper first.
+
+#+BEGIN_src elisp
+(defun pab/json-pretty-print-as-string (obj)
+  "Pretty print OBJ as json string."
+
+  (with-temp-buffer
+    (insert (json-encode obj))
+    (json-pretty-print-buffer)
+    (buffer-substring (point-min) (point-max))))
+#+END_src
+
+Let's see how that looks.
+
+#+BEGIN_src elisp :results value replace
+(pab/json-pretty-print-as-string (cdr pab/talk))
+#+END_src
+
+#+RESULTS:
+#+begin_example
+{
+  "title": "First integrals, Killing scales and Tractors",
+  "institution": "University of Aukland",
+  "recording": "oz-geom-pde@mq-2026-simon-goodwin.mp4",
+  "start": "03:05",
+  "stop": "44:30",
+  "date": "2026-09-24T10:30:00+10:00",
+  "profile_pic": "simon-goodwin.webp",
+  "url": "https://profiles.auckland.ac.nz/simon-goodwin",
+  "abstract": "The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.\n\nThis is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress"
+}
+#+end_example
+
+Convert the video to the required format.
+
+#+BEGIN_src elisp :results value replace
+(setq pab/video (pab/talks-talk-youtube-video pab/talk))
+#+END_src
+
+#+RESULTS:
+: ((:title . Simon Goodwin : First integrals, Killing scales and Tractors) (:description . The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.
+:
+: This is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress) (:file . /home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-simon-goodwin.mp4) (:recordingDate . 2026-09-24T10:30:00+10:00) (:privacyStatus . public) (:categoryId . 28) (:tags))
+
+Let's have a look at it in pretty JSON format.
+
+#+BEGIN_src elisp :results value replace
+(pab/json-pretty-print-as-string pab/video)
+#+END_src
+
+#+RESULTS:
+: {
+:   "title": "Simon Goodwin : First integrals, Killing scales and Tractors",
+:   "description": "The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.\n\nThis is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress",
+:   "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-simon-goodwin.mp4",
+:   "recordingDate": "2026-09-24T10:30:00+10:00",
+:   "privacyStatus": "public",
+:   "categoryId": 28,
+:   "tags": null
+: }
+
+*** Check python virtual environment
+
+Check that we have the correct Python virtual environment including the youtube uploader. This should have been set up by the python property line at the top of this file.
+
+#+BEGIN_src python :results output replace
+import sys
+foo = sys.prefix
+print(f"sys: {sys.prefix}")
+print(f"base: {sys.base_prefix}")
+#+END_src
+
+#+RESULTS:
+: sys: /home/paul/working/hacking/youtube/python-google-api
+: base: /usr
+
+*** Setup YouTube uploader
+
+Now let's setup the YouTube uploader.
+
+#+BEGIN_src python
+yt = youtube_connect()
+#+END_src
+
+Let's just check we are connected by querying a channel.
+
+#+BEGIN_src python :results output replace
+request = yt.session.channels().list(
+    part="snippet,contentDetails,statistics",
+    id="UCtVSqYN2CGISZZdN56Y5fMw"
+    )
+channel = (request.execute())["items"][0]
+
+title = channel["snippet"]["title"]
+title_header = f"Channel: {title}"
+
+print(title_header)
+print('-' * len(title_header))
+print(f"{channel["snippet"]["description"]}")
+#+END_src
+
+#+RESULTS:
+: Channel: Australian Geometric PDE Seminar
+: -----------------------------------------
+: The Australian Geometric PDE Seminar showcases series of talks aimed at advanced undergraduate or early postgraduate students that wish to learn more about geometric PDE. We are based in Australia, but sometimes have guests from overseas. The channel is maintained by Paul Bryan and Glen Wheeler.
+
+*** Print video
+
+Now we can test out the full setup by printing our test video and then all videos. The real code does exactly the same thing, except the named python code block uploads the video rather than just printing it.
+
+Here is a named source block that can be called via noweb to print out the talk using python. This is a first step to testing.
+
+#+name: youtube-print-video-test
+#+BEGIN_src python :var video_json=""
+import json
+
+if video_json != "":
+    data = json.loads(video_json)
+    dump = json.dumps(data, indent=2)
+else:
+    dump = ""
+
+dump
+#+END_src
+
+Here's a function that passes a talk to the code-block [[youtube-print-video-test][youtube-print-video-test]] as a suitable json string. The code-block just prints out the talk.
+
+#+BEGIN_src elisp
+(defun pab/test-talks-print-talk-youtube (talk)
+  "Print TALK using python code-block."
+
+  (org-sbe
+   "youtube-print-video-test"
+   (video_json (json-encode (pab/talks-talk-youtube-video talk)))))
+#+END_src
+
+Test it out!
+
+#+BEGIN_src elisp :results value replace
+(pab/test-talks-print-talk-youtube pab/talk)
+#+END_src
+
+#+RESULTS:
+: {
+:   "title": "Simon Goodwin : First integrals, Killing scales and Tractors",
+:   "description": "The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.\n\nThis is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress",
+:   "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-simon-goodwin.mp4",
+:   "recordingDate": "2026-09-24T10:30:00+10:00",
+:   "privacyStatus": "public",
+:   "categoryId": 28,
+:   "tags": null
+: }
+
+Do the same as for one talk, but this time mapping over every talk.
+
+#+BEGIN_src elisp :results value replace
+(mapcar #'pab/test-talks-print-talk-youtube pab/talks)
+#+END_src
+
+#+RESULTS:
+| { |
+  "title": "Simon Goodwin : First integrals, Killing scales and Tractors",
+  "description": "The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.\n\nThis is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-simon-goodwin.mp4",
+  "recordingDate": "2026-09-24T10:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Devesh Rajpal : Uniqueness of Lp-Minkowski problem near the affine exponent",
+  "description": "We prove dimensional C0 estimates for solutions of the Lp-Minkowski problem in the entire supercritical range. This implies a spectral gap of the Brunn-Minkowski operator for the Lp Minkowski solutions. Furthermore, following methods from Ivaki-Milman and Du's results, this allows us to prove uniqueness of the Lp Minkowski problem in the supercritical range near the affine exponent p = -n-1 and importantly without any symmetry assumption.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-devesh-rajpal.mp4",
+  "recordingDate": "2026-09-24T11:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Qiyu Zhou : High-Codimension Mean Curvature Flow with One Spacelike Codimension",
+  "description": "In this talk, I will present the spacelike-convex theory and new convexity and cylindrical estimates for high-codimension mean curvature flow with one spacelike codimension. These results are inspired by the argument of Haslhofer--Kleiner, but use a different and more flexible approach that extends naturally to the high-codimension setting considered here. This is a joint work with Ben Andrews.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-qiyu-zhou.mp4",
+  "recordingDate": "2026-09-24T14:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Max Orchard : Global regularity of cohomogeneity one incompressible Euler fluids on compact manifolds",
+  "description": "Given a Riemannian manifold $(M,\\mathsf{g})$, the Euler fluid equation is a nonlinear PDE for a time-varying vector field $u(t)$ which governs the flow of ideal (incompressible and inviscid) fluids. A fundamental problem in the study of Euler fluids is to determine whether an initially smooth solution and develop a singularity in finite time. This question has been well-studied in case $M$ is a submanifold of $\\mathbb{R}^3$ and $\\mathsf{g}$ is the Euclidean metric, with considerable progress made in recent weeks by Alp\\\"oge--Buckmaster and OpenAI. However, the question has seen comparatively little attention for more general Riemannian manifolds. In this talk, we will discuss the so-called \"blow-up\" problem for more general Riemannian manifolds, and will demonstrate that solutions never develop finite-time singularities if the isometry group of $\\mathsf{g}$ is large enough",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-max-orchard.mp4",
+  "recordingDate": "2026-09-24T14:50:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Tien Dat Dinh : Liouville type results for super-p-biharmonic submanifolds of Euclidean space",
+  "description": "Chen\u2019s Conjecture is a longstanding conjecture in the field of Geometric Analysis. It states that every biharmonic immersion into Euclidean space is minimal. Though remains unsolved, Chen\u2019s conjecture has opened many active research directions regarding biharmonic and$p$-biharmonic maps. In this talk, we introduce a notion of weak super-$p$-biharmonic immersions into Euclidean space and discuss rigidity results of such proper immersions with an integrability condition. This presentation is based on a joint work with Glen Wheeler and Nguyen Thac Dung.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-tien-dat-dinh.mp4",
+  "recordingDate": "2026-09-24T16:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Owen Dearricott : Killing tensors on complex and quaternionic projective spaces",
+  "description": "A covariant symmetric tensor field is said to be Killing if the symmetrisation of its covariant derivative vanishes. The Killing tensors on standard spheres were classified in the 1980s and are decomposable; namely, they consist of sums of symmetric products of rank 1 Killing tensors dual to Killing fields. Recently, Eastwood proved that the same is true on complex projective space.\n\nIn this talk we corroborate Eastwood's result by different means. Namely via the Riemannian submersion given by a Hopf fibration and the classical invariant theory of Hermann Weyl. We go on in this vein to classify the Killing tensors on quaternionic projective space to be generated by rank 1 Killing tensors dual to Killing fields and the quadratic Killing tensors found by Matveev and Nikolayevsky in 2024.\n\nThis is joint work with Yuri Nikolayevsky.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-owen-dearricott.mp4",
+  "recordingDate": "2026-09-24T16:50:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Jihye Lee : Isoperimetric profile comparisons under integral Ricci curvature bounds",
+  "description": "The isoperimetric profile of a Riemannian manifold describes the least boundary area needed to enclose a prescribed volume. Classical comparison theorems relate this profile to that of a model space under pointwise lower bounds on Ricci curvature. In this talk, I will discuss quantitative comparison estimates under integral Ricci curvature bounds, extending results of Morgan\u2013Johnson and Ni\u2013Wang.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-jihye-lee.mp4",
+  "recordingDate": "2026-09-25T10:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Kwok Kun Kwong : An improved volume bound under Ricci and scalar curvature lower bounds",
+  "description": "The Bishop\u2013Gromov volume comparison theorem implies that if the Ricci curvature of a closed Riemannian manifold is bounded below by that of the unit sphere, then its total volume is bounded above by the volume of the sphere. It is natural to ask whether this estimate can be improved if one additionally assumes a stronger lower bound on the scalar curvature. This question is closely related to a conjecture of Bray.\n\nIn this talk, I will explain a volume bound that takes into account the full spectrum of the Ricci curvature. As a consequence, one obtains an improved upper bound for the total volume which agrees, to first order, with the bound predicted by Bray\u2019s conjecture. If time permits, I will also discuss an averaged volume comparison for metric balls of arbitrary radius.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-kwok-kun-kwong.mp4",
+  "recordingDate": "2026-09-25T11:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Vindula Kumaranayake : Rigidity Theorems in General Relativity",
+  "description": "Rigidity theorems show that, under symmetry or asymptotic assumptions, solutions to the Einstein vacuum equations collapse to a handful of distinguished metrics. This talk gives modern, self-contained proofs of four classical results: Birkhoff's theorem, Lichnerowicz's theorem, Robinson's generalisation of Israel's uniqueness theorem, and the Boucher\u2013Gibbons\u2013Horowitz rigidity theorem for anti-de Sitter spacetime, and highlights a unifying template underlying the last two: constructing a divergence identity, integrating it between carefully chosen hypersurfaces, and using positivity to force curvature obstructions to vanish.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-vindula-kumaranayake.mp4",
+  "recordingDate": "2026-09-25T14:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Elliot Mabbutt : The Graphical Wound Healing Flow with Neumann Boundary",
+  "description": "The wound healing flow is a geometric flow similar to the curve shortening flow, but with a forcing term. We focus on the case of a curve between two parallel lines, with 90-degree Neumann boundary conditions, where the initial curve can be written as a graph in its first component. We translate the flow equation into a quasilinar PDE, and then prove global existence and uniqueness, and convergence of the solution to a horizontal line translating in time.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-elliot-mabbutt.mp4",
+  "recordingDate": "2026-09-25T14:50:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Alexander Bednarek : On Miyaoka-Yau Inequalities and Weil-Petersson Metrics",
+  "description": "The classical Miyaoka-Yau inequality is a constraint on Kahler-Einstein manifolds where equality is equivalent to being a complex space form. We discuss how the Kahler-Ricci flow can provide several extensions of the inequality to non-KE manifolds, and the connection with the slope stability of the holomorphic tangent bundle. Finally, we display a connection with the Weil-Petersson metric, a form measuring the variation of complex structures, and that equality in the extended Miyaoka-Yau inequality is equivalent to being a holomorphic fibre bundle. This is recent work: arXiv.2609.06451.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-alexander-bednarek.mp4",
+  "recordingDate": "2026-09-25T16:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |
+  "title": "Simon Goodwin : First integrals, Killing scales and Tractors",
+  "description": "The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.\n\nThis is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-simon-goodwin.mp4",
+  "recordingDate": "2026-09-24T10:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Devesh Rajpal : Uniqueness of Lp-Minkowski problem near the affine exponent",
+  "description": "We prove dimensional C0 estimates for solutions of the Lp-Minkowski problem in the entire supercritical range. This implies a spectral gap of the Brunn-Minkowski operator for the Lp Minkowski solutions. Furthermore, following methods from Ivaki-Milman and Du's results, this allows us to prove uniqueness of the Lp Minkowski problem in the supercritical range near the affine exponent p = -n-1 and importantly without any symmetry assumption.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-devesh-rajpal.mp4",
+  "recordingDate": "2026-09-24T11:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Qiyu Zhou : High-Codimension Mean Curvature Flow with One Spacelike Codimension",
+  "description": "In this talk, I will present the spacelike-convex theory and new convexity and cylindrical estimates for high-codimension mean curvature flow with one spacelike codimension. These results are inspired by the argument of Haslhofer--Kleiner, but use a different and more flexible approach that extends naturally to the high-codimension setting considered here. This is a joint work with Ben Andrews.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-qiyu-zhou.mp4",
+  "recordingDate": "2026-09-24T14:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Max Orchard : Global regularity of cohomogeneity one incompressible Euler fluids on compact manifolds",
+  "description": "Given a Riemannian manifold $(M,\\mathsf{g})$, the Euler fluid equation is a nonlinear PDE for a time-varying vector field $u(t)$ which governs the flow of ideal (incompressible and inviscid) fluids. A fundamental problem in the study of Euler fluids is to determine whether an initially smooth solution and develop a singularity in finite time. This question has been well-studied in case $M$ is a submanifold of $\\mathbb{R}^3$ and $\\mathsf{g}$ is the Euclidean metric, with considerable progress made in recent weeks by Alp\\\"oge--Buckmaster and OpenAI. However, the question has seen comparatively little attention for more general Riemannian manifolds. In this talk, we will discuss the so-called \"blow-up\" problem for more general Riemannian manifolds, and will demonstrate that solutions never develop finite-time singularities if the isometry group of $\\mathsf{g}$ is large enough",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-max-orchard.mp4",
+  "recordingDate": "2026-09-24T14:50:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Tien Dat Dinh : Liouville type results for super-p-biharmonic submanifolds of Euclidean space",
+  "description": "Chen\u2019s Conjecture is a longstanding conjecture in the field of Geometric Analysis. It states that every biharmonic immersion into Euclidean space is minimal. Though remains unsolved, Chen\u2019s conjecture has opened many active research directions regarding biharmonic and$p$-biharmonic maps. In this talk, we introduce a notion of weak super-$p$-biharmonic immersions into Euclidean space and discuss rigidity results of such proper immersions with an integrability condition. This presentation is based on a joint work with Glen Wheeler and Nguyen Thac Dung.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-tien-dat-dinh.mp4",
+  "recordingDate": "2026-09-24T16:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Owen Dearricott : Killing tensors on complex and quaternionic projective spaces",
+  "description": "A covariant symmetric tensor field is said to be Killing if the symmetrisation of its covariant derivative vanishes. The Killing tensors on standard spheres were classified in the 1980s and are decomposable; namely, they consist of sums of symmetric products of rank 1 Killing tensors dual to Killing fields. Recently, Eastwood proved that the same is true on complex projective space.\n\nIn this talk we corroborate Eastwood's result by different means. Namely via the Riemannian submersion given by a Hopf fibration and the classical invariant theory of Hermann Weyl. We go on in this vein to classify the Killing tensors on quaternionic projective space to be generated by rank 1 Killing tensors dual to Killing fields and the quadratic Killing tensors found by Matveev and Nikolayevsky in 2024.\n\nThis is joint work with Yuri Nikolayevsky.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-owen-dearricott.mp4",
+  "recordingDate": "2026-09-24T16:50:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Jihye Lee : Isoperimetric profile comparisons under integral Ricci curvature bounds",
+  "description": "The isoperimetric profile of a Riemannian manifold describes the least boundary area needed to enclose a prescribed volume. Classical comparison theorems relate this profile to that of a model space under pointwise lower bounds on Ricci curvature. In this talk, I will discuss quantitative comparison estimates under integral Ricci curvature bounds, extending results of Morgan\u2013Johnson and Ni\u2013Wang.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-jihye-lee.mp4",
+  "recordingDate": "2026-09-25T10:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Kwok Kun Kwong : An improved volume bound under Ricci and scalar curvature lower bounds",
+  "description": "The Bishop\u2013Gromov volume comparison theorem implies that if the Ricci curvature of a closed Riemannian manifold is bounded below by that of the unit sphere, then its total volume is bounded above by the volume of the sphere. It is natural to ask whether this estimate can be improved if one additionally assumes a stronger lower bound on the scalar curvature. This question is closely related to a conjecture of Bray.\n\nIn this talk, I will explain a volume bound that takes into account the full spectrum of the Ricci curvature. As a consequence, one obtains an improved upper bound for the total volume which agrees, to first order, with the bound predicted by Bray\u2019s conjecture. If time permits, I will also discuss an averaged volume comparison for metric balls of arbitrary radius.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-kwok-kun-kwong.mp4",
+  "recordingDate": "2026-09-25T11:30:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Vindula Kumaranayake : Rigidity Theorems in General Relativity",
+  "description": "Rigidity theorems show that, under symmetry or asymptotic assumptions, solutions to the Einstein vacuum equations collapse to a handful of distinguished metrics. This talk gives modern, self-contained proofs of four classical results: Birkhoff's theorem, Lichnerowicz's theorem, Robinson's generalisation of Israel's uniqueness theorem, and the Boucher\u2013Gibbons\u2013Horowitz rigidity theorem for anti-de Sitter spacetime, and highlights a unifying template underlying the last two: constructing a divergence identity, integrating it between carefully chosen hypersurfaces, and using positivity to force curvature obstructions to vanish.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-vindula-kumaranayake.mp4",
+  "recordingDate": "2026-09-25T14:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Elliot Mabbutt : The Graphical Wound Healing Flow with Neumann Boundary",
+  "description": "The wound healing flow is a geometric flow similar to the curve shortening flow, but with a forcing term. We focus on the case of a curve between two parallel lines, with 90-degree Neumann boundary conditions, where the initial curve can be written as a graph in its first component. We translate the flow equation into a quasilinar PDE, and then prove global existence and uniqueness, and convergence of the solution to a horizontal line translating in time.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-elliot-mabbutt.mp4",
+  "recordingDate": "2026-09-25T14:50:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Alexander Bednarek : On Miyaoka-Yau Inequalities and Weil-Petersson Metrics",
+  "description": "The classical Miyaoka-Yau inequality is a constraint on Kahler-Einstein manifolds where equality is equivalent to being a complex space form. We discuss how the Kahler-Ricci flow can provide several extensions of the inequality to non-KE manifolds, and the connection with the slope stability of the holomorphic tangent bundle. Finally, we display a connection with the Weil-Petersson metric, a form measuring the variation of complex structures, and that equality in the extended Miyaoka-Yau inequality is equivalent to being a holomorphic fibre bundle. This is recent work: arXiv.2609.06451.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-alexander-bednarek.mp4",
+  "recordingDate": "2026-09-25T16:00:00+10:00",
+  "privacyStatus": "public",
+  "categoryId": 28,
+  "tags": null
+} |
+  "title": "Isoperimetric profile comparisons under integral Ricci curvature bounds",
+  "description": "The isoperimetric profile of a Riemannian manifold describes the least boundary area needed to enclose a prescribed volume. Classical comparison theorems relate this profile to that of a model space under pointwise lower bounds on Ricci curvature. In this talk, I will discuss quantitative comparison estimates under integral Ricci curvature bounds, extending results of Morgan\u2013Johnson and Ni\u2013Wang.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-jihye-lee.mp4",
+  "recordingDate": "2026-09-25",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "First integrals, Killing scales and Tractors",
+  "description": "The Killing equation and its generalisations for Killing tensors are important for the study of symmetry, structure deformations, and for separation of variables for the Hamilton-Jacobi equation and as symmetries of the Laplacian equation. These Killing equations arise as operators in BGG complexes. Solutions of BGG equations and their tractor prolongations are known to be central to finding first integrals for distinguished curves, such as unparameterised geodesics in projective manifolds. The Killing equations have natural, invariant conformal weakenings, solutions of which are conformal Killing tensors. One can ask whether a conformal Killing tensor actually arises from a Killing tensor for a given metric in the conformal class. When this occurs, the metric is called a Killing scale. For conformal Killing 2-tensors, the Killing scale condition is a reformulation of the Bertrand-Darboux equation, ubiquitous in the study of Hamiltonian systems on Riemannian manifolds. We take the question of Killing scales, apply this to a natural family of Hamiltonians on projectively flat manifolds and use conformal tractor calculus to construct and classify maximally superintegrable Hamiltonians in the family. The overall story demonstrates a beautiful interaction of mechanics, geometry, and linear algebra.\n\nThis is joint work with Rod Gover, Thomas Leistner, and Jonathan Kress",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-simon-goodwin.mp4",
+  "recordingDate": "2026-09-24",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "On Miyaoka-Yau Inequalities and Weil-Petersson Metrics",
+  "description": "The classical Miyaoka-Yau inequality is a constraint on Kahler-Einstein manifolds where equality is equivalent to being a complex space form. We discuss how the Kahler-Ricci flow can provide several extensions of the inequality to non-KE manifolds, and the connection with the slope stability of the holomorphic tangent bundle. Finally, we display a connection with the Weil-Petersson metric, a form measuring the variation of complex structures, and that equality in the extended Miyaoka-Yau inequality is equivalent to being a holomorphic fibre bundle. This is recent work: arXiv.2609.06451.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-alexander-bednarek.mp4",
+  "recordingDate": "2026-09-25",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "An improved volume bound under Ricci and scalar curvature lower bounds",
+  "description": "The Bishop\u2013Gromov volume comparison theorem implies that if the Ricci curvature of a closed Riemannian manifold is bounded below by that of the unit sphere, then its total volume is bounded above by the volume of the sphere. It is natural to ask whether this estimate can be improved if one additionally assumes a stronger lower bound on the scalar curvature. This question is closely related to a conjecture of Bray.\n\nIn this talk, I will explain a volume bound that takes into account the full spectrum of the Ricci curvature. As a consequence, one obtains an improved upper bound for the total volume which agrees, to first order, with the bound predicted by Bray\u2019s conjecture. If time permits, I will also discuss an averaged volume comparison for metric balls of arbitrary radius.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-kwok-kun-kwong.mp4",
+  "recordingDate": "2026-09-25",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Killing tensors on complex and quaternionic projective spaces",
+  "description": "A covariant symmetric tensor field is said to be Killing if the symmetrisation of its covariant derivative vanishes. The Killing tensors on standard spheres were classified in the 1980s and are decomposable; namely, they consist of sums of symmetric products of rank 1 Killing tensors dual to Killing fields. Recently, Eastwood proved that the same is true on complex projective space.\n\nIn this talk we corroborate Eastwood's result by different means. Namely via the Riemannian submersion given by a Hopf fibration and the classical invariant theory of Hermann Weyl. We go on in this vein to classify the Killing tensors on quaternionic projective space to be generated by rank 1 Killing tensors dual to Killing fields and the quadratic Killing tensors found by Matveev and Nikolayevsky in 2024.\n\nThis is joint work with Yuri Nikolayevsky.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-owen-dearricott.mp4",
+  "recordingDate": "2026-09-24",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "High-Codimension Mean Curvature Flow with One Spacelike Codimension",
+  "description": "In this talk, I will present the spacelike-convex theory and new convexity and cylindrical estimates for high-codimension mean curvature flow with one spacelike codimension. These results are inspired by the argument of Haslhofer--Kleiner, but use a different and more flexible approach that extends naturally to the high-codimension setting considered here. This is a joint work with Ben Andrews.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-qiyu-zhou.mp4",
+  "recordingDate": "2026-09-24",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Global regularity of cohomogeneity one incompressible Euler fluids on compact manifolds",
+  "description": "Given a Riemannian manifold $(M,\\mathsf{g})$, the Euler fluid equation is a nonlinear PDE for a time-varying vector field $u(t)$ which governs the flow of ideal (incompressible and inviscid) fluids. A fundamental problem in the study of Euler fluids is to determine whether an initially smooth solution and develop a singularity in finite time. This question has been well-studied in case $M$ is a submanifold of $\\mathbb{R}^3$ and $\\mathsf{g}$ is the Euclidean metric, with considerable progress made in recent weeks by Alp\\\"oge--Buckmaster and OpenAI. However, the question has seen comparatively little attention for more general Riemannian manifolds. In this talk, we will discuss the so-called \"blow-up\" problem for more general Riemannian manifolds, and will demonstrate that solutions never develop finite-time singularities if the isometry group of $\\mathsf{g}$ is large enough",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-max-orchard.mp4",
+  "recordingDate": "2026-09-24",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Uniqueness of Lp-Minkowski problem near the affine exponent",
+  "description": "We prove dimensional C0 estimates for solutions of the Lp-Minkowski problem in the entire supercritical range. This implies a spectral gap of the Brunn-Minkowski operator for the Lp Minkowski solutions. Furthermore, following methods from Ivaki-Milman and Du's results, this allows us to prove uniqueness of the Lp Minkowski problem in the supercritical range near the affine exponent p = -n-1 and importantly without any symmetry assumption.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-devesh-rajpal.mp4",
+  "recordingDate": "2026-09-24",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "The Graphical Wound Healing Flow with Neumann Boundary",
+  "description": "The wound healing flow is a geometric flow similar to the curve shortening flow, but with a forcing term. A family of curves $\\gamma$ following the wound healing flow has evolution $\\gamma_t=(\\sigma_1k+\\sigma_2)N$ for $\\sigma_1>0$ and $\\sigma_2$ constants, $k$ the scalar curvature and $N$ the anticlockwise unit normal.\n\n  We focus on the case of a curve between two parallel lines, with 90-degree Neumann boundary conditions, where the initial curve $\\gamma_0$ can be written as a graph in its first component. We translate the flow equation into a quasilinar PDE, and then prove global existence and uniqueness, and convergence of the solution to a horizontal line translating in time.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-elliot-mabbutt.mp4",
+  "recordingDate": "2026-09-25",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Liouville type results for super-p-biharmonic submanifolds of Euclidean space",
+  "description": "Chen\u2019s Conjecture is a longstanding conjecture in the field of Geometric Analysis. It states that every biharmonic immersion into Euclidean space is minimal. Though remains unsolved, Chen\u2019s conjecture has opened many active research directions regarding biharmonic and$p$-biharmonic maps. In this talk, we introduce a notion of weak super-$p$-biharmonic immersions into Euclidean space and discuss rigidity results of such proper immersions with an integrability condition. This presentation is based on a joint work with Glen Wheeler and Nguyen Thac Dung.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-tien-dat-dinh.mp4",
+  "recordingDate": "2026-09-24",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |{
+  "title": "Rigidity Theorems in General Relativity",
+  "description": "Rigidity theorems show that, under symmetry or asymptotic assumptions, solutions to the Einstein vacuum equations collapse to a handful of distinguished metrics. This talk gives modern, self-contained proofs of four classical results: Birkhoff's theorem, Lichnerowicz's theorem, Robinson's generalisation of Israel's uniqueness theorem, and the Boucher\u2013Gibbons\u2013Horowitz rigidity theorem for anti-de Sitter spacetime, and highlights a unifying template underlying the last two: constructing a divergence identity, integrating it between carefully chosen hypersurfaces, and using positivity to force curvature obstructions to vanish.",
+  "file": "/home/paul/reference/academic/oz_geom_pde/oz-geom-pde-at-mq-2026/talks/recordings/edit/oz-geom-pde@mq-2026-vindula-kumaranayake.mp4",
+  "recordingDate": "2026-09-25",
+  "privacyStatus": "private",
+  "categoryId": 28,
+  "tags": null
+} |
+
+*** Test playlist
+
+#+BEGIN_src elisp :results value replace
+(let ((playlist (pab/talks-get-playist)))
+  (json-encode (pab/talks-youtube-playlist playlist)))
+#+END_src
+
+#+RESULTS:
+: {"title":"oz-geom-pde @ mq 2026","description":"Research seminar at Macquarie University on 24th-25th September 2026. Participants presented their research in various problems from geometric analysis over the two days.","privacyStatus":"public"}
+
+*** Test upload
+
+Let's try a test upload. Probably best to only execute this once!
+
+#+BEGIN_src elisp :eval query :results value replace
+(pab/talks-upload-talk-youtube pab/talk pab/playlist-id)
+#+END_src
+
+#+RESULTS:
+: EV_8qtMuIuo
+
+*** Add YouTube id's to talk headlines
+
+When I first ran the upload, I didn't have code to add the YouTube id's to the talk headlines. It's there now, but I don't want to re-run the upload. So here we add the id's manually. Only run this once. I manually setup the variable ~pab/youtube-ids~ matching talk keys with YouTube ids. If you do decide to run this again for some reason, make sure to set that up, otherwise you may lose the YouTube ids!
+
+#+BEGIN_src elisp :eval query
+(mapcar
+ #'(lambda (talk-id)
+     (let ((talk (assoc (car talk-id) pab/talks))
+	   (video-id (cdr talk-id)))
+       (pab/talks-talk-add-youtube-id talk video-id)))
+ pab/youtube-ids)
+#+END_src
+
+*** Update title on YouTube
+
+ When I first ran the upload, I didn't format the title the way I want it. The  code now does it correctly, but I need to fix up the uploaded videos. Only run this once. I manually setup the variable ~pab/youtube-ids~ matching talk keys with YouTube ids. If you do decide to run this again for some reason, make sure to set that up, otherwise you may mess up the titles on YouTube.
+
+#+BEGIN_src elisp :eval query :results value replace
+(mapcar
+ #'(lambda (talk)
+     (let* ((video-id (alist-get (car talk) pab/youtube-ids)))
+       (pab/talks-update-talk-youtube talk video-id)))
+ pab/talks)
+#+END_src
+
+#+RESULTS:
+: ((:simon-goodwin . ) (:devesh-rajpal . ) (:qiyu-zhou . ) (:max-orchard . ) (:tien-dat-dinh . ) (:owen-dearricott . ) (:jihye-lee . ) (:kwok-kun-kwong . ) (:vindula-kumaranayake . ) (:elliot-mabbutt . ) (:alexander-bednarek . ))
